@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Map">
+        <meta name="author" content="Daniel Brown">
+        <title>Map</title>
+        <style>
+            .map {
+                width: 100%;
+                height: 400px;
+            }
+            .ol-popup {
+                position: absolute;
+                background-color: white;
+                box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+                padding: 15px;
+                border-radius: 10px;
+                border: 1px solid #cccccc;
+                bottom: 12px;
+                left: 0px;
+                min-width: 280px;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <script src='https://cdn.jsdelivr.net/npm/ol@v7.1.0/dist/ol.js'></script>
+        <script src='https://code.jquery.com/jquery-3.6.2.min.js' integrity='sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=' crossorigin='anonymous'></script>
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/ol@v7.1.0/ol.css'>
+        <div id='content-placeholder'></div>
+        <div id='map' style='position: fixed; top: 0; left: 0; bottom: 0; right: 0;'></div>
+        <!-- position: fixed; top: 0; left: 0; bottom: 0; right: 0; -->
+        <div id="popup" class="ol-popup">
+            <div id="popup-content">
+                <button id="gettable" onclick="showTable()">Get Table</button>
+                <div style="display:none;" id="tablediv">
+                    <form>
+                        <label for="name">Name</label>
+                        <input id="name" type="text"/>
+                        <label for="type">Type</label>
+                        <input id="type" type='text'/>
+                        <label for="colour">Colour</label>
+                        <input id="colour" type='text'/>                        
+                        <label for="lineStyle">Line Style</label>
+                        <select id="lineStyle">
+                            <option value="dashed">Dashed</option>
+                            <option value="solid">Solid</option>
+                        </select>
+                    </form>
+                    <table id="points">
+                        <thead>
+                            <tr>
+                                <th>From Lat</th>
+                                <th>From Lon</th>
+                                <th>From Name</th>
+                                <th>To Lat</th>
+                                <th>To Lon</th>
+                                <th>To Description</th>
+                                <th>Segment Description</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+
+                        </tbody>
+                    </table>
+                    <button id="getJson" class="button button-primary button-primary-outline" onclick="getJson()">Get Json</button>
+                </div>
+            </div>
+        </div>
+
+       
+    </body>
+<script>
+
+let map;
+let overlay;
+let vectorLines;
+let vectorLineLayer;
+var featureLine
+
+let points = [];
+
+const source = new ol.source.Vector();
+
+const vector = new ol.layer.Vector({
+  source: source,
+});
+
+
+function createMap(){
+    vectorLine = new ol.source.Vector({});
+    vectorLineLayer = new ol.layer.Vector({'id':'lines'});
+
+    map = new ol.Map({
+        target: 'map',
+        layers: [
+            new ol.layer.Tile({
+                source: new ol.source.OSM(),
+            }),
+            vector,
+            vectorLineLayer
+        ],
+        view: new ol.View({
+            center: ol.proj.fromLonLat([-2.89479, 54.093409]),
+            zoom: 5,
+        }),
+        controls: ol.control.defaults.defaults().extend([
+            new ol.control.FullScreen()
+        ]),
+    });
+
+
+
+    map.addInteraction(
+        new ol.interaction.Draw({
+            source: source,
+            type: 'LineString',
+        })
+    );
+}
+
+function registerMapHandler(){
+    map.on('click', function (evt) {
+
+        var latlon =  ol.proj.toLonLat(evt.coordinate)
+
+        var lat = latlon[1];
+        var lon = latlon[0];
+
+        points.push({
+            'lat':lat,
+            'lon':lon
+        })
+
+        var pointsTbl = document.getElementById('tbody');
+        
+        if(points.length > 1){
+            var end = points[points.length-1];
+            var prev = points[points.length-2];
+
+            var tr = document.createElement('tr');
+            tr.addEventListener('mouseover', highlight, false);
+            tr.addEventListener('mouseout', unhighlight, false);
+            tr.setAttribute('fromLat', prev.lat);
+            tr.setAttribute('fromLon', prev.lon);
+            tr.setAttribute('toLat', end.lat);
+            tr.setAttribute('toLon', end.lon);
+            tr.innerHTML ='<td>'+prev.lat+"</td><td>"+prev.lon+"</td><td><input type='text'/></td><td>"+end.lat+"</td><td>"+end.lon+"</td><td><input type='text'/></td><td><input type='text'/></td>"
+            pointsTbl.appendChild(tr);
+        }
+        
+
+    });
+}
+function unhighlight(el){
+    vectorLine.removeFeature(featureLine);
+}
+
+function highlight(el){
+    let fromLat = $(el.target).closest('tr')[0].getAttribute('fromLat');
+    let fromLon = $(el.target).closest('tr')[0].getAttribute('fromLon');
+    let toLat = $(el.target).closest('tr')[0].getAttribute('toLat');
+    let toLon = $(el.target).closest('tr')[0].getAttribute('toLon');
+    
+    var points = [
+        [fromLon, fromLat],
+        [toLon, toLat]];
+
+    for (var i = 0; i < points.length; i++) {
+        points[i] = ol.proj.transform(points[i], 'EPSG:4326', 'EPSG:3857');
+    }
+
+    featureLine = new ol.Feature({
+        geometry: new ol.geom.LineString(points)
+        
+    });
+
+    
+    featureLine.setStyle(new ol.style.Style({
+        stroke: new ol.style.Stroke({
+            color: '#990000',
+            width: 10
+        })
+    }));
+
+
+    vectorLine.addFeature(featureLine);
+    vectorLineLayer.setSource(vectorLine);
+
+}
+
+function showTable(){
+    var div = document.getElementById('tablediv');
+    div.style.removeProperty('display');
+
+    var btn = document.getElementById('gettable');
+    btn.style.display='none';
+    
+}
+
+function getJson(){
+    var name = document.getElementById("name").value 
+    var type = document.getElementById("type").value 
+    var colour = document.getElementById("colour").value
+    var lineStyle = document.getElementById("lineStyle").value
+
+    var rows = document.getElementById('tbody');
+
+    var routes = [];
+
+    for(var i=0; i<rows.children.length; i++){
+        var row = rows.children[i];
+        var fromLat = row.children[0].innerHTML;
+        var fromLon = row.children[1].innerHTML;
+        var fromName = row.children[2].children[0].value;
+
+        var toLat = row.children[3].innerHTML;
+        var toLon = row.children[4].innerHTML;
+        var toName = row.children[5].children[0].value;
+
+        var segmentDescription = row.children[6].children[0].value;
+
+        routes.push({
+            'from':{
+                'lat': fromLat,
+                'lon': fromLon,
+                'name': fromName
+            },
+            'to':{
+                'lat': toLat,
+                'lon': toLon,
+                'name': toName
+            },
+            'description': segmentDescription
+        });
+
+    }
+
+    var json = {
+        "details": {
+            "name": name, 
+            "type": type,
+            "style": {
+                "colour": colour,
+                "line": lineStyle
+            }
+        },
+        "routes": routes
+    }
+    var jsonStr = "<html><body><pre>"+JSON.stringify(json, null, 4)+"</pre></body></html>";
+    document.write(jsonStr);
+
+    console.log(name, type, colour);
+}
+
+createMap();
+registerMapHandler();
+
+
+</script>
+</html>

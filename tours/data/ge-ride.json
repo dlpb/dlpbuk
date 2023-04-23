@@ -1,0 +1,103 @@
+{
+    "details": {
+        "name": "Glasgow to Edinburgh (Pedal for Scotland)",
+        "type": "Sportive",
+        "style": {
+            "colour": "#003b6f",
+            "line": "dashed"
+        }
+    },
+    "routes": [
+        {
+            "from": {
+                "lat": "55.85676729039574",
+                "lon": "-4.273613298465592",
+                "name": "Glasgow"
+            },
+            "to": {
+                "lat": "55.85065988805073",
+                "lon": "-4.239691221572032",
+                "name": "Edinburgh"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.85065988805073",
+                "lon": "-4.239691221572032",
+                "name": "Glasgow"
+            },
+            "to": {
+                "lat": "55.99307629124877",
+                "lon": "-3.982156625293044",
+                "name": "Edinburgh"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.99307629124877",
+                "lon": "-3.982156625293044",
+                "name": "Glasgow"
+            },
+            "to": {
+                "lat": "55.98149297738186",
+                "lon": "-3.6016799649030755",
+                "name": "Edinburgh"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.98149297738186",
+                "lon": "-3.6016799649030755",
+                "name": "Glasgow"
+            },
+            "to": {
+                "lat": "55.93926272026363",
+                "lon": "-3.3939231264031657",
+                "name": "Edinburgh"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.93926272026363",
+                "lon": "-3.3939231264031657",
+                "name": "Glasgow"
+            },
+            "to": {
+                "lat": "56.01600816438301",
+                "lon": "-3.404670478970271",
+                "name": "Edinburgh"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "56.01600816438301",
+                "lon": "-3.404670478970271",
+                "name": "Glasgow"
+            },
+            "to": {
+                "lat": "55.98661458192217",
+                "lon": "-3.324416914234467",
+                "name": "Edinburgh"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.98661458192217",
+                "lon": "-3.324416914234467",
+                "name": "Glasgow"
+            },
+            "to": {
+                "lat": "55.95133883557784",
+                "lon": "-3.188598484410688",
+                "name": "Edinburgh"
+            },
+            "description": ""
+        }
+    ]
+}

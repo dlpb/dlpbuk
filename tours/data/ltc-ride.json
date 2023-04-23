@@ -1,0 +1,77 @@
+{
+    "details": {
+        "name": "Lake Tahoe Circular",
+        "type": "Ride",
+        "style": {
+            "colour": " #0B421A",
+            "line": "dashed"
+        }
+    },
+    "routes": [
+        {
+            "from": {
+                "lat": "38.96240808861512",
+                "lon": "-119.94478394166973",
+                "name": "Lake Tahoe"
+            },
+            "to": {
+                "lat": "39.234200971275044",
+                "lon": "-119.92086648129442",
+                "name": "Lake Tahoe"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "39.234200971275044",
+                "lon": "-119.92086648129442",
+                "name": "Lake Tahoe"
+            },
+            "to": {
+                "lat": "39.250078326510334",
+                "lon": "-120.05924607346583",
+                "name": "Lake Tahoe"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "39.250078326510334",
+                "lon": "-120.05924607346583",
+                "name": "Lake Tahoe"
+            },
+            "to": {
+                "lat": "39.14283645322024",
+                "lon": "-120.1617494750743",
+                "name": "Lake Tahoe"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "39.14283645322024",
+                "lon": "-120.1617494750743",
+                "name": "Lake Tahoe"
+            },
+            "to": {
+                "lat": "38.93716449655304",
+                "lon": "-120.08999709394837",
+                "name": "Lake Tahoe"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "38.93716449655304",
+                "lon": "-120.08999709394837",
+                "name": "Lake Tahoe"
+            },
+            "to": {
+                "lat": "38.96240808861512",
+                "lon": "-119.94307555164292",
+                "name": "Lake Tahoe"
+            },
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,233 @@
+{
+    "details": {
+        "name": "Bay Area",
+        "type": "Rides",
+        "style": {
+            "colour": " #FF9768",
+            "line": "dashed"
+        }
+    },
+    "routes": [
+        {
+            "from": {
+                "lat": "37.77691607046745",
+                "lon": "-122.39414743756107",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.78839280484641",
+                "lon": "-122.38713293418381",
+                "name": "Point Bonita"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "37.78839280484641",
+                "lon": "-122.38713293418381",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.80725746061012",
+                "lon": "-122.40546909213495",
+                "name": "Point Bonita"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "37.80725746061012",
+                "lon": "-122.40546909213495",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.80200695781143",
+                "lon": "-122.469214929844",
+                "name": "Point Bonita"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "37.80200695781143",
+                "lon": "-122.469214929844",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.82854733944238",
+                "lon": "-122.48090576880611",
+                "name": "Point Bonita"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "37.82854733944238",
+                "lon": "-122.48090576880611",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.82184023194142",
+                "lon": "-122.53062259976068",
+                "name": "Point Bonita"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "37.82184023194142",
+                "lon": "-122.53062259976068",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.831463283003984",
+                "lon": "-122.52373115784619",
+                "name": "Point Bonita"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "37.831463283003984",
+                "lon": "-122.52373115784619",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.832921211570934",
+                "lon": "-122.53972914800484",
+                "name": "Point Bonita"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "37.832921211570934",
+                "lon": "-122.53972914800484",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.84234845409074",
+                "lon": "-122.4938272223958",
+                "name": "Point Bonita"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "37.84234845409074",
+                "lon": "-122.4938272223958",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.85478668270174",
+                "lon": "-122.47930596979029",
+                "name": "Point Bonita"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "37.85478668270174",
+                "lon": "-122.47930596979029",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.88452381485247",
+                "lon": "-122.52369900340251",
+                "name": "Tuburon"
+            },
+            "description": "Day 2"
+        },
+        {
+            "from": {
+                "lat": "37.88452381485247",
+                "lon": "-122.52369900340251",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.89656648585418",
+                "lon": "-122.52652941704596",
+                "name": "Tuburon"
+            },
+            "description": "Day 2"
+        },
+        {
+            "from": {
+                "lat": "37.89656648585418",
+                "lon": "-122.52652941704596",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.89714914577799",
+                "lon": "-122.48850342505348",
+                "name": "Tuburon"
+            },
+            "description": "Day 2"
+        },
+        {
+            "from": {
+                "lat": "37.89714914577799",
+                "lon": "-122.48850342505348",
+                "name": "San Fransisco"
+            },
+            "to": {
+                "lat": "37.87296488326011",
+                "lon": "-122.45404621548101",
+                "name": "Tuburon"
+            },
+            "description": "Day 2"
+        },
+        {
+            "from": {
+                "lat": "37.87296488326011",
+                "lon": "-122.45404621548101",
+                "name": "Angel Island"
+            },
+            "to": {
+                "lat": "37.87092488350693",
+                "lon": "-122.42943392292925",
+                "name": "Angel Island"
+            },
+            "description": "Day 3"
+        },
+        {
+            "from": {
+                "lat": "37.87092488350693",
+                "lon": "-122.42943392292925",
+                "name": "Angel Island"
+            },
+            "to": {
+                "lat": "37.855865995439885",
+                "lon": "-122.42057349761062",
+                "name": "Angel Island"
+            },
+            "description": "Day 3"
+        },
+        {
+            "from": {
+                "lat": "37.855865995439885",
+                "lon": "-122.42057349761062",
+                "name": "Angel Island"
+            },
+            "to": {
+                "lat": "37.85654614059881",
+                "lon": "-122.44247843798168",
+                "name": "Angel Island"
+            },
+            "description": "Day 3"
+        },
+        {
+            "from": {
+                "lat": "37.85654614059881",
+                "lon": "-122.44247843798168",
+                "name": "Angel Island"
+            },
+            "to": {
+                "lat": "37.87111917163136",
+                "lon": "-122.43004923024304",
+                "name": "Angel Island"
+            },
+            "description": "Day 3"
+        }
+    ]
+}

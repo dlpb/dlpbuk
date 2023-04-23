@@ -1,0 +1,545 @@
+{
+  "details": {
+      "name": "South Coast Explorer",
+      "type": "Tour",
+      "style": {
+          "colour": "#009900",
+          "line": "solid"
+      }
+  },
+  "routes": [
+      {
+          "from": {
+              "lat": "50.06604715461509",
+              "lon": "-5.706091967947844",
+              "name": "Land's End"
+          },
+          "to": {
+              "lat": "50.04551361541087",
+              "lon": "-5.654229852009903",
+              "name": "Penzance"
+          },
+          "description": "Day -1"
+      },
+      {
+        "from": {
+            "lat": "49.91459373326012",
+            "lon": "-6.318447322974273",
+            "name": "St Mary's"
+        },
+        "to": {
+            "lat": "49.925882947205736",
+            "lon": "-6.299718007949542",
+            "name": "Penzance"
+        },
+        "description": "Day 0"
+    },
+    {
+        "from": {
+            "lat": "49.925882947205736",
+            "lon": "-6.299718007949542",
+            "name": "St Mary's"
+        },
+        "to": {
+            "lat": "49.92126495191164",
+            "lon": "-6.279793204731743",
+            "name": "Penzance"
+        },
+        "description": "Day 0"
+    },
+    {
+        "from": {
+            "lat": "49.92126495191164",
+            "lon": "-6.279793204731743",
+            "name": "St Mary's"
+        },
+        "to": {
+            "lat": "49.91254086489974",
+            "lon": "-6.300116504013897",
+            "name": "Penzance"
+        },
+        "description": "Day 0"
+    },
+    {
+        "from": {
+            "lat": "49.91254086489974",
+            "lon": "-6.300116504013897",
+            "name": "St Mary's"
+        },
+        "to": {
+            "lat": "49.91433712949416",
+            "lon": "-6.3188458190386285",
+            "name": "Penzance"
+        },
+        "description": "Day 0"
+    },
+    {
+        "from": {
+            "lat": "49.91433712949416",
+            "lon": "-6.3188458190386285",
+            "name": "St Mary's"
+        },
+        "to": {
+            "lat": "50.12193733860735",
+            "lon": "-5.531896581613107",
+            "name": "Penzance"
+        },
+        "description": "Day 0"
+    },
+      {
+          "from": {
+              "lat": "50.04551361541087",
+              "lon": "-5.654229852009903",
+              "name": "Penzance"
+          },
+          "to": {
+              "lat": "50.12233053733513",
+              "lon": "-5.531057326657287",
+              "name": "St. Austell"
+          },
+          "description": "Day 1"
+      },
+      {
+          "from": {
+              "lat": "50.12233053733513",
+              "lon": "-5.531057326657287",
+              "name": "Penzance"
+          },
+          "to": {
+              "lat": "50.33918557401992",
+              "lon": "-4.783841984723522",
+              "name": "St. Austell"
+          },
+          "description": "Day 1"
+      },
+      {
+          "from": {
+              "lat": "50.33918557401992",
+              "lon": "-4.783841984723522",
+              "name": "St. Austell"
+          },
+          "to": {
+              "lat": "50.54917687034248",
+              "lon": "-4.147129874807054",
+              "name": "Tavistock"
+          },
+          "description": "Day 2"
+      },
+      {
+          "from": {
+              "lat": "50.54917687034248",
+              "lon": "-4.147129874807054",
+              "name": "Tavistock"
+          },
+          "to": {
+              "lat": "50.680144783019585",
+              "lon": "-3.2376993974254735",
+              "name": "Sidmouth"
+          },
+          "description": "Day 3"
+      },
+      {
+          "from": {
+              "lat": "50.680144783019585",
+              "lon": "-3.2376993974254735",
+              "name": "Sidmouth"
+          },
+          "to": {
+              "lat": "50.738666383286244",
+              "lon": "-2.900878991968139",
+              "name": "Weymouth"
+          },
+          "description": "Day 4"
+      },
+      {
+          "from": {
+              "lat": "50.738666383286244",
+              "lon": "-2.900878991968139",
+              "name": "Sidmouth"
+          },
+          "to": {
+              "lat": "50.732881764904874",
+              "lon": "-2.7529788487912192",
+              "name": "Weymouth"
+          },
+          "description": "Day 4"
+      },
+      {
+          "from": {
+              "lat": "50.732881764904874",
+              "lon": "-2.7529788487912192",
+              "name": "Sidmouth"
+          },
+          "to": {
+              "lat": "50.605439351629855",
+              "lon": "-2.4555167630758414",
+              "name": "Weymouth"
+          },
+          "description": "Day 4"
+      },
+      {
+          "from": {
+              "lat": "50.605439351629855",
+              "lon": "-2.4555167630758414",
+              "name": "Weymouth"
+          },
+          "to": {
+              "lat": "50.650241600529995",
+              "lon": "-2.4314206723335343",
+              "name": "Lymington"
+          },
+          "description": "Day 5"
+      },
+      {
+          "from": {
+              "lat": "50.650241600529995",
+              "lon": "-2.4314206723335343",
+              "name": "Weymouth"
+          },
+          "to": {
+              "lat": "50.652875697500576",
+              "lon": "-1.9777494466335448",
+              "name": "Lymington"
+          },
+          "description": "Day 5"
+      },
+      {
+          "from": {
+              "lat": "50.652875697500576",
+              "lon": "-1.9777494466335448",
+              "name": "Weymouth"
+          },
+          "to": {
+              "lat": "50.70815761986489",
+              "lon": "-1.9096156728104696",
+              "name": "Lymington"
+          },
+          "description": "Day 5"
+      },
+      {
+          "from": {
+              "lat": "50.70815761986489",
+              "lon": "-1.9096156728104696",
+              "name": "Weymouth"
+          },
+          "to": {
+              "lat": "50.72288846851134",
+              "lon": "-1.824863905372008",
+              "name": "Lymington"
+          },
+          "description": "Day 5"
+      },
+      {
+          "from": {
+              "lat": "50.72288846851134",
+              "lon": "-1.824863905372008",
+              "name": "Weymouth"
+          },
+          "to": {
+              "lat": "50.71447140762527",
+              "lon": "-1.7500829341027793",
+              "name": "Lymington"
+          },
+          "description": "Day 5"
+      },
+      {
+          "from": {
+              "lat": "50.71447140762527",
+              "lon": "-1.7500829341027793",
+              "name": "Weymouth"
+          },
+          "to": {
+              "lat": "50.73708883094477",
+              "lon": "-1.7176778465527798",
+              "name": "Lymington"
+          },
+          "description": "Day 5"
+      },
+      {
+          "from": {
+              "lat": "50.73708883094477",
+              "lon": "-1.7176778465527798",
+              "name": "Weymouth"
+          },
+          "to": {
+              "lat": "50.75549030194438",
+              "lon": "-1.5456816126335529",
+              "name": "Lymington"
+          },
+          "description": "Day 5"
+      },
+      {
+          "from": {
+              "lat": "50.75549030194438",
+              "lon": "-1.5456816126335529",
+              "name": "Lymington"
+          },
+          "to": {
+              "lat": "50.86889366602563",
+              "lon": "-1.3927960713720178",
+              "name": "Barnham (Portsmouth)"
+          },
+          "description": "Day 6"
+      },
+      {
+          "from": {
+              "lat": "50.86889366602563",
+              "lon": "-1.3927960713720178",
+              "name": "Lymington"
+          },
+          "to": {
+              "lat": "50.90034574847712",
+              "lon": "-1.4035977672220177",
+              "name": "Barnham (Portsmouth)"
+          },
+          "description": "Day 6"
+      },
+      {
+          "from": {
+              "lat": "50.90034574847712",
+              "lon": "-1.4035977672220177",
+              "name": "Lymington"
+          },
+          "to": {
+              "lat": "50.85053681141781",
+              "lon": "-1.3088752036143274",
+              "name": "Barnham (Portsmouth)"
+          },
+          "description": "Day 6"
+      },
+      {
+          "from": {
+              "lat": "50.85053681141781",
+              "lon": "-1.3088752036143274",
+              "name": "Lymington"
+          },
+          "to": {
+              "lat": "50.79122105759771",
+              "lon": "-1.1202609760797162",
+              "name": "Barnham (Portsmouth)"
+          },
+          "description": "Day 6"
+      },
+      {
+          "from": {
+              "lat": "50.79122105759771",
+              "lon": "-1.1202609760797162",
+              "name": "Lymington"
+          },
+          "to": {
+              "lat": "50.78754415180012",
+              "lon": "-0.985655227795104",
+              "name": "Barnham (Portsmouth)"
+          },
+          "description": "Day 6"
+      },
+      {
+          "from": {
+              "lat": "50.78754415180012",
+              "lon": "-0.985655227795104",
+              "name": "Lymington"
+          },
+          "to": {
+              "lat": "50.84633994423524",
+              "lon": "-0.9790080303489502",
+              "name": "Barnham (Portsmouth)"
+          },
+          "description": "Day 6"
+      },
+      {
+          "from": {
+              "lat": "50.84633994423524",
+              "lon": "-0.9790080303489502",
+              "name": "Lymington"
+          },
+          "to": {
+              "lat": "50.87361283205874",
+              "lon": "-0.931646748545105",
+              "name": "Barnham (Portsmouth)"
+          },
+          "description": "Day 6"
+      },
+      {
+          "from": {
+              "lat": "50.87361283205874",
+              "lon": "-0.931646748545105",
+              "name": "Lymington"
+          },
+          "to": {
+              "lat": "50.83951922973523",
+              "lon": "-0.7787612072835701",
+              "name": "Barnham (Portsmouth)"
+          },
+          "description": "Day 6"
+      },
+      {
+          "from": {
+              "lat": "50.83951922973523",
+              "lon": "-0.7787612072835701",
+              "name": "Lymington"
+          },
+          "to": {
+              "lat": "50.829370648035535",
+              "lon": "-0.6318800861012618",
+              "name": "Barnham (Portsmouth)"
+          },
+          "description": "Day 6"
+      },
+      {
+          "from": {
+              "lat": "50.829370648035535",
+              "lon": "-0.6318800861012618",
+              "name": "Barnham (Portsmouth)"
+          },
+          "to": {
+              "lat": "50.82884754750921",
+              "lon": "-0.2416929225855839",
+              "name": "Bexhill (Brighton)"
+          },
+          "description": "Day 7"
+      },
+      {
+          "from": {
+              "lat": "50.82884754750921",
+              "lon": "-0.2416929225855839",
+              "name": "Barnham (Portsmouth)"
+          },
+          "to": {
+              "lat": "50.83429954542524",
+              "lon": "-0.151536345111069",
+              "name": "Bexhill (Brighton)"
+          },
+          "description": "Day 7"
+      },
+      {
+          "from": {
+              "lat": "50.83429954542524",
+              "lon": "-0.151536345111069",
+              "name": "Barnham (Portsmouth)"
+          },
+          "to": {
+              "lat": "50.8639714743459",
+              "lon": "-0.08391891200518276",
+              "name": "Bexhill (Brighton)"
+          },
+          "description": "Day 7"
+      },
+      {
+          "from": {
+              "lat": "50.8639714743459",
+              "lon": "-0.08391891200518276",
+              "name": "Barnham (Portsmouth)"
+          },
+          "to": {
+              "lat": "50.87456401805326",
+              "lon": "0.0163083469957408",
+              "name": "Bexhill (Brighton)"
+          },
+          "description": "Day 7"
+      },
+      {
+          "from": {
+              "lat": "50.87456401805326",
+              "lon": "0.0163083469957408",
+              "name": "Barnham (Portsmouth)"
+          },
+          "to": {
+              "lat": "50.84904309394432",
+              "lon": "0.24480091461765788",
+              "name": "Bexhill (Brighton)"
+          },
+          "description": "Day 7"
+      },
+      {
+          "from": {
+              "lat": "50.84904309394432",
+              "lon": "0.24480091461765788",
+              "name": "Barnham (Portsmouth)"
+          },
+          "to": {
+              "lat": "50.83963583097494",
+              "lon": "0.473765193450581",
+              "name": "Bexhill (Brighton)"
+          },
+          "description": "Day 7"
+      },
+      {
+          "from": {
+              "lat": "50.83963583097494",
+              "lon": "0.473765193450581",
+              "name": "Bexhill (Brighton)"
+          },
+          "to": {
+              "lat": "50.854488537143084",
+              "lon": "0.5913838298373565",
+              "name": "Dover (London)"
+          },
+          "description": "Day 8"
+      },
+      {
+          "from": {
+              "lat": "50.854488537143084",
+              "lon": "0.5913838298373565",
+              "name": "Bexhill (Brighton)"
+          },
+          "to": {
+              "lat": "50.92571571445515",
+              "lon": "0.7231167025905448",
+              "name": "Dover (London)"
+          },
+          "description": "Day 8"
+      },
+      {
+          "from": {
+              "lat": "50.92571571445515",
+              "lon": "0.7231167025905448",
+              "name": "Bexhill (Brighton)"
+          },
+          "to": {
+              "lat": "50.95140987646866",
+              "lon": "0.737230938956958",
+              "name": "Dover (London)"
+          },
+          "description": "Day 8"
+      },
+      {
+          "from": {
+              "lat": "50.95140987646866",
+              "lon": "0.737230938956958",
+              "name": "Bexhill (Brighton)"
+          },
+          "to": {
+              "lat": "50.98548213639921",
+              "lon": "0.9387508692996335",
+              "name": "Dover (London)"
+          },
+          "description": "Day 8"
+      },
+      {
+          "from": {
+              "lat": "50.98548213639921",
+              "lon": "0.9387508692996335",
+              "name": "Bexhill (Brighton)"
+          },
+          "to": {
+              "lat": "51.071292534789706",
+              "lon": "1.0289251571961615",
+              "name": "Dover (London)"
+          },
+          "description": "Day 8"
+      },
+      {
+          "from": {
+              "lat": "51.071292534789706",
+              "lon": "1.0289251571961615",
+              "name": "Bexhill (Brighton)"
+          },
+          "to": {
+              "lat": "51.124966413517456",
+              "lon": "1.318267002707629",
+              "name": "Dover (London)"
+          },
+          "description": "Day 8"
+      }
+  ]
+}

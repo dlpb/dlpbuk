@@ -1,0 +1,51 @@
+{
+    "details": {
+        "name": "London to Brighton (BHF)",
+        "type": "Sportive",
+        "style": {
+            "colour": "#6c1491",
+            "line": "dashed"
+        }
+    },
+    "routes": [
+        {
+            "from": {
+                "lat": "51.53744480816417",
+                "lon": "-0.03559069744498622",
+                "name": "London"
+            },
+            "to": {
+                "lat": "51.45829781713019",
+                "lon": "-0.1471182783380801",
+                "name": "Brighton"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "51.45829781713019",
+                "lon": "-0.1471182783380801",
+                "name": "London"
+            },
+            "to": {
+                "lat": "51.04895278858672",
+                "lon": "-0.07980119680582236",
+                "name": "Brighton"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "51.04895278858672",
+                "lon": "-0.07980119680582236",
+                "name": "London"
+            },
+            "to": {
+                "lat": "50.820580331830655",
+                "lon": "-0.14497181897022185",
+                "name": "Brighton"
+            },
+            "description": ""
+        }
+    ]
+}
