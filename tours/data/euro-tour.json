@@ -1,0 +1,714 @@
+{
+    "details": {
+        "name": "RCC Eur",
+        "type": "Tour",
+        "style": {
+            "colour": "#009900",
+            "line": "solid"
+        }
+    },
+    "routes": [
+        {
+            "from": {
+                "lat": "51.51057137861471",
+                "lon": "-0.11784796929209825",
+                "name": "Home"
+            },
+            "to": {
+                "lat": "51.46209211991342",
+                "lon": "0.36524857075336836",
+                "name": "Dover"
+            },
+            "description": "Day 0 - Home - Dover"
+        },
+        {
+            "from": {
+                "lat": "51.46209211991342",
+                "lon": "0.36524857075336836",
+                "name": "Home"
+            },
+            "to": {
+                "lat": "51.44256181923126",
+                "lon": "0.36524857075336836",
+                "name": "Dover"
+            },
+            "description": "Day 0 - Tilbury Ferry"
+        },
+        {
+            "from": {
+                "lat": "51.44256181923126",
+                "lon": "0.36524857075336836",
+                "name": "Home"
+            },
+            "to": {
+                "lat": "51.3950962994669",
+                "lon": "0.5682154090913648",
+                "name": "Dover"
+            },
+            "description": "Day 0 - Home - Dover"
+        },
+        {
+            "from": {
+                "lat": "51.3950962994669",
+                "lon": "0.5682154090913648",
+                "name": "Home"
+            },
+            "to": {
+                "lat": "51.12519325595375",
+                "lon": "1.3144170206281163",
+                "name": "Dover"
+            },
+            "description": "Day 0 - Home - Dover"
+        },
+        {
+            "from": {
+                "lat": "50.96756914639457",
+                "lon": "1.8581253520736178",
+                "name": "Calais"
+            },
+            "to": {
+                "lat": "50.89707764409039",
+                "lon": "1.9688279316734822",
+                "name": "Dunkerque"
+            },
+            "description": "Day 1 - Calais - Dunkerkque"
+        },
+        {
+            "from": {
+                "lat": "50.89707764409039",
+                "lon": "1.9688279316734822",
+                "name": "Calais"
+            },
+            "to": {
+                "lat": "50.94771538991222",
+                "lon": "2.196930481746748",
+                "name": "Dunkerque"
+            },
+            "description": "Day 1 - Calais - Dunkerkque"
+        },
+        {
+            "from": {
+                "lat": "50.94771538991222",
+                "lon": "2.196930481746748",
+                "name": "Calais"
+            },
+            "to": {
+                "lat": "51.03856241931632",
+                "lon": "2.3769210061925072",
+                "name": "Dunkerque"
+            },
+            "description": "Day 1 - Calais - Dunkerkque"
+        },
+        {
+            "from": {
+                "lat": "51.03856241931632",
+                "lon": "2.3769210061925072",
+                "name": "Dunkerque"
+            },
+            "to": {
+                "lat": "51.131927437975065",
+                "lon": "2.7515074914352318",
+                "name": "Brugges"
+            },
+            "description": "Day 2 - Dunkerque - Brugges"
+        },
+        {
+            "from": {
+                "lat": "51.131927437975065",
+                "lon": "2.7515074914352318",
+                "name": "Dunkerque"
+            },
+            "to": {
+                "lat": "51.20939998231182",
+                "lon": "3.2277663129528342",
+                "name": "Brugges"
+            },
+            "description": "Day 2 - Dunkerque - Brugges"
+        },
+        {
+            "from": {
+                "lat": "51.20939998231182",
+                "lon": "3.2277663129528342",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.40286315146241",
+                "lon": "3.5523897949680676",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.40286315146241",
+                "lon": "3.5523897949680676",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.4454570270118",
+                "lon": "3.595858957555309",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag Ferry"
+        },
+        {
+            "from": {
+                "lat": "51.4454570270118",
+                "lon": "3.595858957555309",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.58345177126429",
+                "lon": "3.6214874440990155",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.58345177126429",
+                "lon": "3.6214874440990155",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.58962520598362",
+                "lon": "3.677376367425469",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.58962520598362",
+                "lon": "3.677376367425469",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.69906412905783",
+                "lon": "3.7506529557868187",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.69906412905783",
+                "lon": "3.7506529557868187",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.70137337007938",
+                "lon": "3.8090258312611134",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.70137337007938",
+                "lon": "3.8090258312611134",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.754293892951296",
+                "lon": "3.830271544557579",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.754293892951296",
+                "lon": "3.830271544557579",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.771973447053085",
+                "lon": "3.8650468746273723",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.771973447053085",
+                "lon": "3.8650468746273723",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.79886383383203",
+                "lon": "3.889886396105796",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.79886383383203",
+                "lon": "3.889886396105796",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.81652593245093",
+                "lon": "3.981792625575963",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.81652593245093",
+                "lon": "3.981792625575963",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.80577591402232",
+                "lon": "4.015325979571835",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.80577591402232",
+                "lon": "4.015325979571835",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.84876060466999",
+                "lon": "4.088602567933184",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.84876060466999",
+                "lon": "4.088602567933184",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.90473264353162",
+                "lon": "4.209074247103539",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.90473264353162",
+                "lon": "4.209074247103539",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.91043798048733",
+                "lon": "4.2448380121409865",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.91043798048733",
+                "lon": "4.2448380121409865",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.91690850557657",
+                "lon": "4.249500082295882",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag Ferry"
+        },
+        {
+            "from": {
+                "lat": "51.91690850557657",
+                "lon": "4.249500082295882",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "51.95607121379231",
+                "lon": "4.173158683509456",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "51.95607121379231",
+                "lon": "4.173158683509456",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "52.02340343252078",
+                "lon": "4.157096478135216",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "52.02340343252078",
+                "lon": "4.157096478135216",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "52.09719066903929",
+                "lon": "4.252739073419856",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "52.09719066903929",
+                "lon": "4.252739073419856",
+                "name": "Brugges"
+            },
+            "to": {
+                "lat": "52.08107764130142",
+                "lon": "4.313345985433508",
+                "name": "Den Haag"
+            },
+            "description": "Day 3 - Brugges - Den Haag"
+        },
+        {
+            "from": {
+                "lat": "52.08107764130142",
+                "lon": "4.313345985433508",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "52.13011475335384",
+                "lon": "4.311014950356061",
+                "name": "Amersfoort"
+            },
+            "description": "Day 4 - Den Haag - Amersfoort"
+        },
+        {
+            "from": {
+                "lat": "52.13011475335384",
+                "lon": "4.311014950356061",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "52.19504376240414",
+                "lon": "4.385337988556267",
+                "name": "Amersfoort"
+            },
+            "description": "Day 4 - Den Haag - Amersfoort"
+        },
+        {
+            "from": {
+                "lat": "52.19504376240414",
+                "lon": "4.385337988556267",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "52.27320541593741",
+                "lon": "4.454103523340988",
+                "name": "Amersfoort"
+            },
+            "description": "Day 4 - Den Haag - Amersfoort"
+        },
+        {
+            "from": {
+                "lat": "52.27320541593741",
+                "lon": "4.454103523340988",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "52.27748426945419",
+                "lon": "4.503638018736762",
+                "name": "Amersfoort"
+            },
+            "description": "Day 4 - Den Haag - Amersfoort"
+        },
+        {
+            "from": {
+                "lat": "52.27748426945419",
+                "lon": "4.503638018736762",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "52.34622046115791",
+                "lon": "4.622479392296035",
+                "name": "Amersfoort"
+            },
+            "description": "Day 4 - Den Haag - Amersfoort"
+        },
+        {
+            "from": {
+                "lat": "52.34622046115791",
+                "lon": "4.622479392296035",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "52.36935444894354",
+                "lon": "4.707562172622894",
+                "name": "Amersfoort"
+            },
+            "description": "Day 4 - Den Haag - Amersfoort"
+        },
+        {
+            "from": {
+                "lat": "52.36935444894354",
+                "lon": "4.707562172622894",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "52.3778931678944",
+                "lon": "4.903951877897901",
+                "name": "Amersfoort"
+            },
+            "description": "Day 4 - Den Haag - Amersfoort"
+        },
+        {
+            "from": {
+                "lat": "52.3778931678944",
+                "lon": "4.903951877897901",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "52.157137245154274",
+                "lon": "5.374820963542429",
+                "name": "Amersfoort"
+            },
+            "description": "Day 4 - Den Haag - Amersfoort"
+        },
+        {
+            "from": {
+                "lat": "52.157137245154274",
+                "lon": "5.374820963542429",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "51.98304256819958",
+                "lon": "5.9109590313555085",
+                "name": "Amersfoort"
+            },
+            "description": "Day 5 - Amersfoort - Nijmegen"
+        },
+        {
+            "from": {
+                "lat": "51.98304256819958",
+                "lon": "5.9109590313555085",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "51.840771072585284",
+                "lon": "6.226708914278417",
+                "name": "Amersfoort"
+            },
+            "description": "Day 5 - Amersfoort - Nijmegen"
+        },
+        {
+            "from": {
+                "lat": "51.840771072585284",
+                "lon": "6.226708914278417",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "51.820963585265446",
+                "lon": "6.226708914278417",
+                "name": "Amersfoort"
+            },
+            "description": "Day 5 - Amersfoort - Nijmegen"
+        },
+        {
+            "from": {
+                "lat": "51.820963585265446",
+                "lon": "6.226708914278417",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "51.842571321297015",
+                "lon": "5.853743301886712",
+                "name": "Amersfoort"
+            },
+            "description": "Day 5 - Amersfoort - Nijmegen"
+        },
+        {
+            "from": {
+                "lat": "51.9257071602448",
+                "lon": "4.469726622454219",
+                "name": "Rotterdam"
+            },
+            "to": {
+                "lat": "51.916935704937885",
+                "lon": "4.2508364063015165",
+                "name": "Hoek Van Holland"
+            },
+            "description": "Day 6 - Rotterdam - Hoek Van Holland"
+        },
+        {
+            "from": {
+                "lat": "51.916935704937885",
+                "lon": "4.2508364063015165",
+                "name": "Rotterdam"
+            },
+            "to": {
+                "lat": "51.987451631714066",
+                "lon": "4.104461759608265",
+                "name": "Hoek Van Holland"
+            },
+            "description": "Day 6 - Rotterdam - Hoek Van Holland"
+        },
+        {
+            "from": {
+                "lat": "51.949663044980895",
+                "lon": "1.2481725849468066",
+                "name": "Harwich"
+            },
+            "to": {
+                "lat": "51.939325242796684",
+                "lon": "1.261589054810914",
+                "name": "Colchester"
+            },
+            "description": "Day 7 - Harwich - Colchester"
+        },
+        {
+            "from": {
+                "lat": "51.939325242796684",
+                "lon": "1.261589054810914",
+                "name": "Harwich"
+            },
+            "to": {
+                "lat": "51.94621737565507",
+                "lon": "1.2912170924274853",
+                "name": "Colchester"
+            },
+            "description": "Day 7 - Harwich - Colchester"
+        },
+        {
+            "from": {
+                "lat": "51.94621737565507",
+                "lon": "1.2912170924274853",
+                "name": "Harwich"
+            },
+            "to": {
+                "lat": "51.94001450373625",
+                "lon": "1.3197270908887144",
+                "name": "Colchester"
+            },
+            "description": "Day 7 - Harwich - Colchester Ferry"
+        },
+        {
+            "from": {
+                "lat": "51.94001450373625",
+                "lon": "1.3197270908887144",
+                "name": "Harwich"
+            },
+            "to": {
+                "lat": "51.96447640663854",
+                "lon": "1.3610945396363798",
+                "name": "Colchester"
+            },
+            "description": "Day 7 - Harwich - Colchester"
+        },
+        {
+            "from": {
+                "lat": "51.96447640663854",
+                "lon": "1.3610945396363798",
+                "name": "Harwich"
+            },
+            "to": {
+                "lat": "51.982383701527766",
+                "lon": "1.3482370893499434",
+                "name": "Colchester"
+            },
+            "description": "Day 7 - Harwich - Colchester"
+        },
+        {
+            "from": {
+                "lat": "51.982383701527766",
+                "lon": "1.3482370893499434",
+                "name": "Harwich"
+            },
+            "to": {
+                "lat": "52.01026350206442",
+                "lon": "1.2548808198788606",
+                "name": "Colchester"
+            },
+            "description": "Day 7 - Harwich - Colchester"
+        },
+        {
+            "from": {
+                "lat": "52.01026350206442",
+                "lon": "1.2548808198788606",
+                "name": "Harwich"
+            },
+            "to": {
+                "lat": "52.05428508147068",
+                "lon": "1.1598474916747643",
+                "name": "Colchester"
+            },
+            "description": "Day 7 - Harwich - Colchester"
+        },
+        {
+            "from": {
+                "lat": "52.05428508147068",
+                "lon": "1.1598474916747643",
+                "name": "Harwich"
+            },
+            "to": {
+                "lat": "51.8908863398716",
+                "lon": "0.905253859653318",
+                "name": "Colchester"
+            },
+            "description": "Day 7 - Harwich - Colchester"
+        },
+        {
+            "from": {
+                "lat": "51.8908863398716",
+                "lon": "0.905253859653318",
+                "name": "Colchester"
+            },
+            "to": {
+                "lat": "51.87714768798051",
+                "lon": "0.6880530847300667",
+                "name": "Home"
+            },
+            "description": "Day 8 - Colchester - Home"
+        },
+        {
+            "from": {
+                "lat": "51.87714768798051",
+                "lon": "0.6880530847300667",
+                "name": "Colchester"
+            },
+            "to": {
+                "lat": "51.880253575785844",
+                "lon": "0.552211327355976",
+                "name": "Home"
+            },
+            "description": "Day 8 - Colchester - Home"
+        },
+        {
+            "from": {
+                "lat": "51.880253575785844",
+                "lon": "0.552211327355976",
+                "name": "Colchester"
+            },
+            "to": {
+                "lat": "51.710842935948165",
+                "lon": "0.31295094811272184",
+                "name": "Home"
+            },
+            "description": "Day 8 - Colchester - Home"
+        },
+        {
+            "from": {
+                "lat": "51.710842935948165",
+                "lon": "0.31295094811272184",
+                "name": "Colchester"
+            },
+            "to": {
+                "lat": "51.51088455972027",
+                "lon": "-0.11861216584940966",
+                "name": "Home"
+            },
+            "description": "Day 8 - Colchester - Home"
+        }
+    ]
+}
