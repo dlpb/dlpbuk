@@ -3,7 +3,7 @@
         "name": "Mad Manc",
         "type": "Sportive",
         "style": {
-            "colour": " #AE1717",
+            "colour": "#db781b",
             "line": "dashed"
         }
     },
