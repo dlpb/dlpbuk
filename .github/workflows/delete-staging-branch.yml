@@ -1,0 +1,23 @@
+on: 
+  push:
+    branches-ignore:
+      - main
+name: 🚀 Deploy dlpb.uk staging on push
+
+env:
+  GITHUB_BRANCH: ${{ github.event.ref }}
+  GITHUB_EVENT_TYPE: ${{ github.event.ref_type }}
+jobs:
+  web-delete:
+    if: ${{ env.GITHUB_EVENT_TYPE }} == 'branch'
+    name: Delete Branch
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: 📂 remove files
+      uses: StephanThierry/ftp-delete-action@v2.1
+      with:
+        server: ${{ secrets.ftp_host }}
+        username: ${{ secrets.ftp_username }}
+        password: ${{ secrets.ftp_password }}
+        server-dir: public_html/staging/${{ env.GITHUB_BRANCH }}
