@@ -1,5 +1,5 @@
 on: 
-  push:
+  delete:
     branches-ignore:
       - main
 name: 🚀 Delete dlpb.uk staging branch on delete
