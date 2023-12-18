@@ -2,7 +2,7 @@ on:
   push:
     branches-ignore:
       - main
-name: 🚀 Deploy dlpb.uk staging on push
+name: 🚀 Delete dlpb.uk staging branch on delete
 
 env:
   GITHUB_BRANCH: ${{ github.event.ref }}
