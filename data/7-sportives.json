@@ -1,0 +1,172 @@
+{
+    "section":{
+        "title":"Sportives",
+        "id":"cycle-sportives",
+        "order":7
+    },
+    "style":{
+        "layout":"list-unstyled",
+        "class":"bg-light pt-1 pb-1",
+        "grouping":true
+    },
+    "data": {
+        "2023":{
+            "data":[
+                {
+                    "link_text":"Essex Season Ender, 2023",
+                    "url": "https://www.strava.com/activities/10165620564"
+                },
+                {
+                    "link_text":"Wares Essex, 2023",
+                    "url": "https://www.strava.com/activities/9956389598"
+                },
+                {
+                    "link_text":"Liverpool Chester Liverpool 100 mile route, 2023",
+                    "url": "https://www.strava.com/activities/9375057140"
+                },
+                {
+                    "link_text":"Challenge MND Inaugural Sportive, 100 mile route, 2023",
+                    "url":"https://www.strava.com/activities/9333067259"
+                },
+                {
+                    "link_text":"Tour of Essex, 2023",
+                    "url":"https://www.strava.com/activities/9070235378"
+                },
+                {
+                    "link_text":"5 Boros Bike Tour, New York, 2023",
+                    "url":"https://www.strava.com/activities/9030548414",
+                    "badges":[
+                        "International"
+                    ]
+                },
+                {
+                    "link_text":"Herts Easter Egg Hunt, 2023",
+                    "url":"https://www.strava.com/activities/8901632039"
+                },
+                {
+                    "link_text":"Ware's Cambridge, 2023",
+                    "url":"https://www.strava.com/activities/8703987288"
+                }
+            ]
+        },
+        "2022":{
+            "data":[
+                {
+                    "link_text":"Essex Season Ender, 2023",
+                    "url": "https://www.strava.com/activities/8078387302"
+                },
+                {
+                    "link_text":"Velocity Berlin, 2022",
+                    "url":"https://www.strava.com/activities/7408114579",
+                    "badges":[
+                        "International"
+                    ]
+                },
+                {
+                    "link_text":"BHF London to Brighton Ride, 2022",
+                    "url": "https://www.strava.com/activities/7334252143"
+                },
+                {
+                    "link_text":"Tour of Essex, 2022",
+                    "url": "https://www.strava.com/activities/7297935873"
+                },
+                {
+                    "link_text":"Ride London - Essex, 2022",
+                    "url": "https://www.strava.com/activities/7222878502"
+                },
+                {
+                    "link_text":"Tour de Manc 100 mile route, 2022",
+                    "url": "https://www.strava.com/activities/7071776008"
+                },
+                {
+                    "link_text":"Herts Easter Egg Hunt, 2022",
+                    "url": "https://www.strava.com/activities/7033639972"
+                },
+                {
+                    "link_text":"London Pheonix Easter Classic, 2022",
+                    "url": "https://www.strava.com/activities/7002186152"
+                },
+                {
+                    "link_text":"Ware's Cambridge, 2022",
+                    "url": "https://www.strava.com/activities/6854850837"
+                }
+            ]
+        },
+        "2021":{
+            "data":[
+                {
+                    "link_text":"Essex Season Ender, 2021",
+                    "url": "https://www.strava.com/activities/6225241187"
+                },
+                {
+                    "link_text":"Ware's Essex, 2021",
+                    "url": "https://www.strava.com/activities/6058416721"
+                },
+                {
+                    "link_text":"Redbourne RR Sportive, 2021",
+                    "url": "https://www.strava.com/activities/5574128084"
+                },
+                {
+                    "link_text":"Tour of Essex, 2021",
+                    "url": "https://www.strava.com/activities/5231399338"
+                },
+                {
+                    "link_text":"Herts Easter Egg Hunt, 2021",
+                    "url": "https://www.strava.com/activities/5149606690"
+                }
+            ]
+        },
+        "2020":{
+            "data":[
+                {
+                    "link_text":"Essex Season Ender, 2020",
+                    "url": "https://www.strava.com/activities/4438055024"
+                },
+                {
+                    "link_text":"Virtual Ride London, 2020",
+                    "url": "https://www.strava.com/activities/3923050370"
+                }
+            ]
+        },
+        "2019":{
+            "data":[
+                {
+                    "link_text":"Pedal for Scotland, 2019",
+                    "url": "https://www.strava.com/activities/2690120499"
+                },
+                {
+                    "link_text":"Ride London, 2019",
+                    "url": "https://www.strava.com/activities/2590520179"
+                },
+                {
+                    "link_text":"Velo Birmingham & Midlands, 2019",
+                    "url": "https://www.strava.com/activities/2362242838"
+                },
+                {
+                    "link_text":"London Pheonix Easter Classic, Short Route, 2019",
+                    "url": "https://www.strava.com/activities/2309582344"
+                }
+            ]
+        },
+        "2017":{
+            "data":[
+                {
+                    "link_text":"Ride London, 2017",
+                    "url": "https://www.strava.com/activities/1108926477"
+                },
+                {
+                    "link_text":"Velothon Wales, 2017",
+                    "url": "https://www.strava.com/activities/1075121644"
+                }
+            ]
+        },
+        "2016":{
+            "data":[
+                {
+                    "link_text":"Ride London, 2016",
+                    "url": "https://www.strava.com/activities/660233321"
+                }
+            ]
+        }
+    }
+}

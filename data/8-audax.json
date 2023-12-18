@@ -1,0 +1,22 @@
+{
+    "section":{
+        "title":"Audaxes",
+        "id":"cycle-audaxes",
+        "order":8
+    },
+    "style":{
+        "layout":"list-unstyled",
+        "class":"bg-light pt-1 pb-1",
+        "grouping":true
+    },
+    "data": {
+        "2021":{
+            "data":[
+                {
+                    "link_text":"Essex 3 R's Audax, 2021",
+                    "url": "https://www.strava.com/activities/6220391676"
+                }
+            ]
+        }
+    }
+}

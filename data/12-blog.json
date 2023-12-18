@@ -1,0 +1,19 @@
+{
+    "section":{
+        "title":"",
+        "id":"blog",
+        "order":12
+    },
+    "style":{
+        "layout":"list-primary-unstyled",
+        "class":"pt-1 bg-dark text-white",
+        "grouping":false
+    },
+    "data": [
+        {
+            "url":"http://blog.dlpb.uk",
+            "link_text":"Blog",
+            "url_style":"btn btn-light btn-xl text-dark"
+        }
+    ]
+}

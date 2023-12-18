@@ -1,0 +1,21 @@
+{
+    "section":{
+        "title":"",
+        "id":"cycle-tours-map",
+        "order":6
+    },
+    "style":{
+        "layout":"include",
+        "class":"bg-light pt-1 pb-1"
+    },
+    "data":[
+        {
+            "url":"tours/",
+            "style":{
+                "style":"width:100%; height:30em",
+                "frameborder":0,
+                "scrolling":"no"
+            }
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "section":{
+        "title":"Time Trials & Races",
+        "id":"cycling-time-trials-and-races",
+        "order":4
+    },
+    "style":{
+        "layout":"card",
+        "class":"bg-light pt-1 pb-1",
+        "grouping":false
+    },
+    "data": [
+        {
+            "name":"E91/10 RCC 10 mile Time Trial, 34:10, 2023",
+            "url":"https://www.strava.com/activities/9638200552",
+            "link_text":"RCC 10 mile time trial 2 up on the E83/10 course. Ridden with Jake Spurdle",
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/_xkBgxhDlwnvWty_OCEegB00OF9A4NBcVREgill0_Ac-1536x2048.jpg",
+                "alt_text":"Results sheet for RCC 10 mile time trial",
+                "width":100
+            }
+        },
+        {
+            "name":"E83/10 RCC 10 mile 2 up solo Time Trial, 33:02, 2023",
+            "url":"https://www.strava.com/activities/9111849345",
+            "link_text":"RCC 10 mile 2 up time trial, ridden solo. E83/10 course.",
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/Oscltbg-ITE594bCKy82eWoCU3UZB8W2R4C-KBYiRM4-1536x2048.jpg",
+                "alt_text":"Results sheet for RCC 10 mile Time Trial",
+                "width":100
+            }
+        },
+        {
+            "name":"E91/10 RCC 10 mile Time Trial, 32:40, 2023",
+            "url":"https://www.strava.com/activities/8941086455",
+            "link_text":"RCC 10 mile time trial on the E91/10 course at Aythorpe Roding. 10 miles in 32:40. Stuck behind a tractor from Dunmow to Aythorpe Roding, which probably slowed me down by a minute or two.",
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/vYa6N1MLSlAxhjsqUNoxys0ZIEFIk4Y6ei8vdM-sh4A-1536x2048.jpg",
+                "alt_text":"Results sheet for RCC 10 mile Time Trial",
+                "width":100
+            }
+        },
+        {
+            "name":"RCC Championship 10 mile Time Trial, 38:54, 2022",
+            "url":"https://www.strava.com/activities/7899318413",
+            "link_text":"RCC 10 mile time trial on the Hog Hill track at Redbridge Cycle Center. 10 miles in 38:54.",
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/E0g6-bd0W-XVmkQ2zqAAsS0DUHNALWzSAgH48wwwVPg-1536x2048.jpg",
+                "alt_text":"Results sheet for RCC 10 mile Time Trial",
+                "width":100
+            }
+        },
+        {
+            "name":"E9/25, 25 miles, 1:20:22 (44:43 on handicaps), 2021",
+            "url":"https://www.strava.com/activities/5985441665",
+            "link_text":"RCC time trial on the course E9/25. 25 miles in 1:20:22 (44:43 on handicaps). A personal best.",
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/ULdtbXvVCaR7FkuYwjug8PX0odb2TVlYTY6o7gLfh1Y-2048x1536.jpg",
+                "alt_text":"Results sheet for RCC 25 mile Time Trial",
+                "width":100
+            }
+        },
+        {
+            "name":" E16/10, 10 miles, 0:32:07, 2021 ",
+            "url":"https://www.strava.com/activities/5909008727",
+            "link_text":"RCC 10 mile time trial on the course E16/10. 10 miles in 0:32:07. A personal first and best.",
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/I8GCyuedXjm9-s5hiOPFByQsZz_5OehGnR4j5VN3SmE-1536x2048.jpg",
+                "alt_text":"Results sheet for RCC 10 mile Time Trial",
+                "width":100
+            }
+        },
+        {
+            "name":"E9/25, 25 miles, 1:23:11, 2019",
+            "url":"https://www.strava.com/activities/2730965976",
+            "link_text":"RCC time trial on the course E9/25. 25 miles in 1:23:11. A personal first and best.",
+            "image":{
+                "url":"https://lh3.googleusercontent.com/-ZfML4OW50Sl3VKs4rOnuh9aLWglCiX-Dqr5xV1UTa5a7zy7OoRhEBuWNgxVYVde4Fz4TSsTSpMAgXB6s_OcWN7hupU301ORJK_JDooAo1FgazYT2HdjGTyDcE2jFLMm1Mlw1gGj4ZtNVvo8FljA_pRwF3Pc-FeGxd3DqfFatdqu2YavEwMzatYbF-QFGVk9LiN2_x8xZEP3RuTzHq3bSvkHdp75HVO3PcjUW1-zahpU6d5X0sGjBAh86IfgbPAQBhJX3r1b8sjyxD5emQueCpsFCuTeo0BgEDcwNJyV4N8bLn8M9iSxoZayjPpl3GW1U-7xGYK9q_hkAT9pyHM2Ayskt2Jze99FXBMNeZkWeTd1T5Rv0r01EiID6LS7Kn9bRCbNpRQDbMv7we3EVgp-HF3Tq6J-FgqKfVYWFFqwNg8QlzHXYe89OxK-FAzScwsbGzgp_Wdc1_jFrU8vxAZhr79R73FLTSpH9UVyxjoUig2T77Gvk9zA5a-_mMoY4cGIMQAxF0kk9vTkfOBC1Jj9lUc2CTvWHq7V_ULtJDjLQkb7HdbtXdny8S0HNkgp4uhzkQ-06xMlMqcJr4ZlNYY_rNqGdCp1oadyCOnFR5q0RkXqlaOqRrfPiWyD2dpWmkeRdai2q7mbJDQa5w-QxLJlngpw0fv83So4grCA96RpIGdEs-axJUZUYIa1fl3IngeM5dbyFxie_FP-QihCTM_UfNDwN41eDDrw6udvTVDkuH2b_lf6=w1000-h1071-no",
+                "alt_text":"Results sheet for RCC 25 mile Time Trial",
+                "width":100
+            }
+        },
+        {
+            "name":"Epping Try-a-Tri, 2017",
+            "urls":[
+                {
+                    "url":"https://www.strava.com/activities/1043290804",
+                    "link_text":"Swim"
+                },
+                {
+                    "url":"https://www.strava.com/activities/1042934618",
+                    "link_text":"Bike"
+                },
+                {
+                    "url":"https://www.strava.com/activities/1043290428",
+                    "link_text":"Run"
+                }
+            ],
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/jlCLDzYdSf5odfflOWReHpOmGnMpQSHFko8z2NEti9I-1153x2048.jpg",
+                "alt_text":"Epping Try-a-Tri results",
+                "width":100
+            }
+        }
+    ]
+}
