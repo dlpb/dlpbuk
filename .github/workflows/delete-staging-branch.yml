@@ -6,10 +6,9 @@ name: 🚀 Delete dlpb.uk staging branch on delete
 
 env:
   GITHUB_BRANCH: ${{ github.event.ref }}
-  GITHUB_EVENT_TYPE: ${{ github.event.ref_type }}
 jobs:
   web-delete:
-    if: ${{ env.GITHUB_EVENT_TYPE }} == 'branch'
+    if: github.event.ref_type == 'branch'
     name: Delete Branch
     runs-on: ubuntu-latest
     steps:
