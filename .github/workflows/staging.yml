@@ -20,4 +20,4 @@ jobs:
         server: ${{ secrets.ftp_host }}
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: public_html/staging/${{ env.GITHUB_BRANCH }}
+        server-dir: public_html/staging/${{ env.GITHUB_BRANCH }}/
