@@ -1,0 +1,17 @@
+{
+    "section":{
+        "title":"Cyclist",
+        "id":"cyclist",
+        "order":3
+    },
+    "style":{
+        "layout":"list-primary-unstyled",
+        "class":"bg-light pb-1",
+        "grouping":false
+    },
+    "data":[
+        {
+            "name":"Regular cycling commuter, club rider, and explorer"
+        }
+    ]
+}

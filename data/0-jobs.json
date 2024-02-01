@@ -1,0 +1,26 @@
+{
+    "section":{
+        "title":"",
+        "id":"about",
+        "order":0
+    },
+    "style":{
+        "layout":"list-primary-unstyled",
+        "class":"bg-light pb-1",
+        "grouping":false
+    },
+    "data":[
+        {
+            "header":"BBC, 2019 - Present",
+            "name":"Principal Software Engineer in the Radio & Music Services team, building the API for BBC Sounds"
+        },
+        {
+            "header":"eBay UK, 2013-2019",
+            "name":"Working in the Business to Consumer product development group at eBay UK, building seller facing tools"
+        },
+        {
+            "header":"Queen Mary, University of London, 2009-2013",
+            "name":"Computer Science, First Class (Honours) BSc, with industrial experience"
+        }
+    ]
+}

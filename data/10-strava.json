@@ -1,0 +1,19 @@
+{
+    "section":{
+        "title":"",
+        "id":"strava",
+        "order":10
+    },
+    "style":{
+        "layout":"list-primary-unstyled",
+        "class":"bg-light pt-1",
+        "grouping":false
+    },
+    "data": [
+        {
+            "url":"https://www.strava.com/athletes/dlpb",
+            "link_text":"Strava",
+            "url_style":"btn btn-dark btn-xl"
+        }
+    ]
+}

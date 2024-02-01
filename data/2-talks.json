@@ -1,0 +1,50 @@
+{
+    "section":{
+        "title":"Talks",
+        "id":"talks",
+        "order":2
+    },
+    "style":{
+        "layout":"list-primary-unstyled",
+        "class":"bg-dark text-white",
+        "grouping":true
+    },
+    "data":{
+        "Reducing the On Call Nightmare": {
+            "data":[
+                {
+                    "name":"BBC Develop Conference, London, 2023"
+                }
+            ]},
+        "(My Journey to) Working Effectively with Legacy Code":{
+            "data":[
+                {
+                    "name":"BBC Develop Conference, Glasgow, 2022"
+                },
+                {
+                    "name":"BBC Wistem Network, Zoom, 2021"
+                },
+                {
+                    "link_text":"Re:Develop Bournemouth, UK, 2019 (link)",
+                    "url":"https://redevelop.io/speakers#daniel-brown",
+                    "url_style":"text-faded"
+                },
+                {
+                    "name":"Female Coding Society, Computer and Information Sciences, University of Glasgow, 2019"
+                }
+            ]},
+        "Scala, Docker, and Testing. Oh My!":{
+            "data":[
+                {
+                    "link_text":"Scala IO, France, 2016 (link)",
+                    "url":"https://www.youtube.com/watch?v=yTW5o7VIBFg",
+                    "url_style":"text-faded"
+                },
+                {
+                    "link_text":"J On The Beach, Spain, 2016 (link)",
+                    "url":"https://www.youtube.com/watch?v=Q1XqOLPhr-k",
+                    "url_style":"text-faded"
+                }
+            ]}
+    }
+}

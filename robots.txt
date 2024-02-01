@@ -1,7 +1,9 @@
+User-agent: GPTBot
+Disallow: /
+
 #Default robots.txt file (which asks all bots to crawl slowly but still index everything).
 User-agent: *
 Crawl-delay: 1
-Disallow:
-
-User-agent: GPTBot
-Disallow: /
+Disallow: /data/
+Disallow: /tours/
+Disallow: /style/

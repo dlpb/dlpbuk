@@ -1,0 +1,90 @@
+{
+    "section":{
+        "title":"Tours",
+        "id":"cycle-tours",
+        "order":5
+    },
+    "style":{
+        "layout":"card",
+        "class":"bg-light pt-1 pb-1"
+    },
+    "data":[
+        {
+            "name":"RCC Euro Tour 2023",
+            "url":"https://www.strava.com/athletes/6124264/posts/25462095",
+            "link_text":"9 Day Club Ride in Summer 2023",
+            "badges":["International", "9 Days", "1000km"],
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/O8HmSjNnDaMIgzQ-OJ9WRJnxME-dhPIhM_-e4Q6y3BU-1536x2048.jpg",
+                "alt_text":"My Bike by the Dutch Border",
+                "width":100
+            }
+        },
+        {
+            "name":"Glasgow - Inverness via Aberdeen",
+            "url":"https://www.strava.com/athletes/6124264/posts/25461899",
+            "link_text":"5 Day ride in Spring 2023",
+            "badges":["5 Days", "550km"],
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/ERF9UwU6V7Ipnal1I3D7UEAq87Lj_pk8gm8fGo--h4Q-2048x1536.jpg",
+                "alt_text":"A view across the North Coast of Scotland down to the sea",
+                "width":100
+            }
+        },
+        {
+            "name":"South Coast Explorer",
+            "url":"https://www.strava.com/athletes/6124264/posts/22714278",
+            "link_text":"10 Day ride in Autumn 2022",
+            "badges":["10 Days", "800km"],
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/7Yhd6AJ_i-YSuWrrVdXw0rPVgNREzEtBR0SjC353Iys-1536x2048.jpg",
+                "alt_text":"My bike in front of Penzance Station",
+                "width":100
+            }
+        },
+        {
+            "name":"London to Cardiff",
+            "url":"https://www.strava.com/athletes/6124264/posts/20096019",
+            "link_text":"4 Day ride in Spring 2022",
+            "badges":["4 Days", "370km"],
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/BkxAZuCfWZZHYPnpfJ7wXhyjoNefFQdl8Fbu5MG0hEE-1536x2048.jpg",
+                "alt_text":"My bike in front of BBC Wales in Cardiff",
+                "width":100
+            }
+        },
+        {
+            "name":"London to Edinburgh",
+            "url":"https://www.strava.com/athletes/6124264/posts/20096019",
+            "link_text":"9 day ride in Summer 2021",
+            "badges":["9 Days", "950km"],
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/cSHtUTVf_FJobVpRKgW06qc6I7AQole82THW7kpnQS8-1536x2048.jpg",
+                "alt_text":"My bike in front of Edinburgh Castle",
+                "width":100
+            }
+        },
+        {
+            "name":"Land's End to John O'Groats",
+            "url":"https://www.strava.com/athletes/6124264/posts/3417219",
+            "link_text":"15 day ride in Summer 2018",
+            "badges":["14 Days", "1700km"],
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/U3fEzIRuFSn4FEsrUXyceVhU8FxjZEXZ7L9PhVZegg8-1536x2048.jpg",
+                "alt_text":"My bike in front of the sign post at John O'Groats",
+                "width":100
+            }
+        },
+        {
+            "name":"Lake Tahoe Circular",
+            "url":"https://www.strava.com/activities/997779329",
+            "link_text":"A weekend in California and Nevada, Spring 2017",
+            "badges":["International", "1 Day", "118km"],
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/m3uyZDR5eohDHUgbxoHMFyqMg3nu3MVU4mI9rJF9VuY-2048x1536.jpg",
+                "alt_text":":Lake Tahoe",
+                "width":100
+            }
+        }
+    ]
+}

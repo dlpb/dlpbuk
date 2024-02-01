@@ -1,0 +1,22 @@
+{
+    "section":{
+        "title":"Other Things",
+        "id":"sports-other",
+        "order":9
+    },
+    "style":{
+        "layout":"list-unstyled",
+        "class":"bg-light pt-1 pb-1",
+        "grouping":true
+    },
+    "data": {
+        "2023":{
+            "data":[
+                {
+                    "link_text":"2,500m Swimathon, 2023",
+                    "url": "https://www.strava.com/activities/9061337324"
+                }
+            ]
+        }
+    }
+}
