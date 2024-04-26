@@ -1,17 +1,17 @@
 {
     "details": {
-        "name": "RCC Eur",
+        "name": "RCC Euro Tour 2023",
         "type": "Tour",
         "style": {
-            "colour": "#009900",
+            "colour": "#990099",
             "line": "solid"
         }
     },
     "routes": [
         {
             "from": {
-                "lat": "51.51057137861471",
-                "lon": "-0.11784796929209825",
+                "lat": "51.53744480816417",
+                "lon": "-0.03559069744498622",
                 "name": "Home"
             },
             "to": {
@@ -704,8 +704,8 @@
                 "name": "Colchester"
             },
             "to": {
-                "lat": "51.51088455972027",
-                "lon": "-0.11861216584940966",
+                "lat": "51.53744480816417",
+                "lon": "-0.03559069744498622",
                 "name": "Home"
             },
             "description": "Day 8 - Colchester - Home"
