@@ -7,6 +7,50 @@
             "line": "solid"
         }
     },
+    "locations":[
+        {
+            "lat": "55.85882223646172",
+            "lon": "-4.29320867626665",
+            "name": "Glasgow",
+            "description":"Start of Tour",
+            "type":"point"
+        },
+        {
+            "lat": "55.94523497984446",
+            "lon": "-3.2187642259177562",
+            "name": "Edinburgh",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "56.460914282276434",
+            "lon": "-2.9659845475891635",
+            "name": "Dundee",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "57.1476864305541",
+            "lon": "-2.0997274938443096",
+            "name": "Aberdeen",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "57.66465379100629",
+            "lon": "-2.522553816727955",
+            "name": "Banff",
+            "description":"Overnight Stay",
+            "type":"point"
+        },
+        {
+            "lat": "57.479368229621315",
+            "lon": "-4.221860420599105",
+            "name": "Inverness",
+            "description":"End of tour",
+            "type":"point"
+        }
+    ],
     "routes": [
         {
             "from": {

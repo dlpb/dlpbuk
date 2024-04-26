@@ -88,6 +88,42 @@ let vectorLineLayer;
 let map;
 let overlay;
 
+function addPoint(location, details){
+    let lat = location.lat;
+    let lon = location.lon;
+
+    var locationPointFeature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([lon, lat])),
+        name: location.name + ' (' + location.description + ')'
+    });
+
+    locationPointFeature.setId(location.id);
+
+    var icon = 'images/dot-point.png' 
+    colour = details.style.colour;
+
+    if(location.type){
+        if(location.type === 'point'){
+            icon = 'images/dot-point.png';
+        }
+        if(location.type === 'intersection'){
+            icon = 'images/dot-intersection.png';
+        }
+        if(location.type === 'route-intersection'){
+            icon = 'images/dot-route-intersection.png';
+            colour = '#ffffff';
+        }
+    }
+    locationPointFeature.setStyle(new ol.style.Style({
+        image: new ol.style.Icon(/** @type {olx.style.IconOptions} */({
+            color: colour,
+            crossOrigin: 'anonymous',
+            src: icon
+        })),
+    }));
+
+    featureLayer.getSource().addFeature(locationPointFeature);
+};
 
 function populateRidesViaApi(){
     jQuery.when(
@@ -98,9 +134,18 @@ function populateRidesViaApi(){
     .done(function(rides){
         for(const rideName in rides){
             const ride = rides[rideName];
-            ride.routes.forEach(function(route){
-                addConnection(route, ride.details);
-            });
+
+            if(ride.routes){
+                ride.routes.forEach(function(route){
+                    addConnection(route, ride.details);
+                });
+            }
+
+            if(ride.locations){
+                ride.locations.forEach(function(location) {
+                    addPoint(location, ride.details);
+                });
+            }
         }
     });
 }

@@ -7,6 +7,78 @@
             "line": "solid"
         }
     },
+    "locations":[
+        {
+            "lat": "51.53883592895107",
+            "lon": "-0.03421115183107473",
+            "name": "London",
+            "description":"Start of Tour",
+            "type":"point"
+        },
+        {
+            "lat": "52.1939417569798",
+            "lon": "0.13761212643287135",
+            "name": "Cambridge",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "52.23762329860875",
+            "lon": "-0.9068139385551472",
+            "name": "Northampton",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "52.099098109242306",
+            "lon": "-1.9477435152178981",
+            "name": "Evesham",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "51.89659131239668",
+            "lon": "-2.099001644745541",
+            "name": "Cheltenham",
+            "description":"Overnight Stay",
+            "type":"point"
+        },
+        {
+            "lat": "51.449104416741136",
+            "lon": "-2.601206910474065",
+            "name": "Bristol",
+            "description":"Overnight stay and rest day",
+            "type":"point"
+        },
+        {
+            "lat": "52.1815378485272",
+            "lon": "-2.2226479737562",
+            "name": "Worcester",
+            "description":"Resuming tour after rest day",
+            "type":"point"
+        },
+        {
+            "lat": "52.71788103114832",
+            "lon": "-2.1179156091435845",
+            "name": "Overnight stay",
+            "description":"Stafford",
+            "type":"point"
+        },
+        {
+            "lat": "53.477094691974884",
+            "lon": "-2.2301307236308814",
+            "name": "Manchester",
+            "description":"End of main tour",
+            "type":"point"
+        },
+        {
+            "lat": "53.404118132778535",
+            "lon": "-2.996192434806796",
+            "name": "Liverpool",
+            "description":"Extra destination",
+            "type":"point"
+        }
+    ],
     "routes": [
         {
             "from": {

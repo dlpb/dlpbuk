@@ -59,6 +59,14 @@
                                 <th>To Lon</th>
                                 <th>To Description</th>
                                 <th>Segment Description</th>
+                                <th>Start<br/>Marker</th>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Type</th>
+                                <th>End<br/>Marker</th>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Type</th>
                             </tr>
                         </thead>
                         <tbody id="tbody">
@@ -147,7 +155,7 @@ function registerMapHandler(){
             tr.setAttribute('fromLon', prev.lon);
             tr.setAttribute('toLat', end.lat);
             tr.setAttribute('toLon', end.lon);
-            tr.innerHTML ='<td>'+prev.lat+"</td><td>"+prev.lon+"</td><td><input type='text'/></td><td>"+end.lat+"</td><td>"+end.lon+"</td><td><input type='text'/></td><td><input type='text'/></td>"
+            tr.innerHTML ='<td>'+prev.lat+"</td><td>"+prev.lon+"</td><td><input type='text'/></td><td>"+end.lat+"</td><td>"+end.lon+"</td><td><input type='text'/></td><td><input type='text'/><td><input type='checkbox'/><td><input type='text'/><td><input type='text'/><td><select><option value='point'>Point</option><option value='intersection'>Intersection</option><option value='route-intersection'>Route Intersection</option></select><td><input type='checkbox'/><td><input type='text'/><td><input type='text'/><td><select><option value='point'>Point</option><option value='intersection'>Intersection</option><option value='route-intersection'>Route Intersection</option></select></td>"
             pointsTbl.appendChild(tr);
         }
         
@@ -238,6 +246,47 @@ function getJson(){
 
     }
 
+    var locations = [];
+    for(var i=0; i<rows.children.length; i++){
+        var row = rows.children[i];
+        var fromLat = row.children[0].innerHTML;
+        var fromLon = row.children[1].innerHTML;
+
+        var toLat = row.children[3].innerHTML;
+        var toLon = row.children[4].innerHTML;
+
+        var hasStartMarker = row.children[7].children[0].checked;
+        var startPointName = row.children[8].children[0].value;
+        var startPointDescription = row.children[9].children[0].value;
+        var startPointType = row.children[10].children[0].value;
+
+        var hasEndMarker = row.children[11].children[0].checked;
+        var endPointName = row.children[12].children[0].value;
+        var endPointDescription = row.children[13].children[0].value;
+        var endPointType = row.children[14].children[0].value;
+
+        if(hasStartMarker){
+            locations.push({
+               'lat':fromLat,
+               'lon':fromLon,
+               'name':startPointName,
+               'description':startPointDescription,
+               'type':startPointType
+            });
+        }
+
+        if(hasEndMarker){
+            locations.push({
+               'lat':toLat,
+               'lon':toLon,
+               'name':endPointName,
+               'description':endPointDescription,
+               'type':endPointType
+            });
+        }
+
+    }
+
     var json = {
         "details": {
             "name": name, 
@@ -247,6 +296,7 @@ function getJson(){
                 "line": lineStyle
             }
         },
+        "locations":locations,
         "routes": routes
     }
     var jsonStr = "<html><body><pre>"+JSON.stringify(json, null, 4)+"</pre></body></html>";

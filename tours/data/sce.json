@@ -7,6 +7,78 @@
           "line": "solid"
       }
   },
+  "locations": [
+    {
+        "lat": "50.06604715461509",
+        "lon": "-5.706091967947844",
+        "name":"Land's End",
+        "description":"Intersect LEJOG Route",
+        "type":"point"
+    },
+    {
+        "lat": "50.12233053733513",
+        "lon": "-5.531057326657287",
+        "name": "Penzance",
+        "description":"Start of Tour",
+        "type":"point"
+    },
+    {
+        "lat": "50.33918557401992",
+        "lon": "-4.783841984723522",
+        "name": "St Austell",
+        "description":"Overnight stay",
+        "type":"point"
+    },
+    {
+        "lat": "50.54917687034248",
+        "lon": "-4.147129874807054",
+        "name": "Tavistock",
+        "description":"Overnight stay",
+        "type":"point"
+    },
+    {
+        "lat": "50.680144783019585",
+        "lon": "-3.2376993974254735",
+        "name": "Sidmouth",
+        "description":"Overnight stay",
+        "type":"point"
+    },
+    {
+        "lat": "50.605439351629855",
+        "lon": "-2.4555167630758414",
+        "name": "Weymouth",
+        "description":"Overnight stay",
+        "type":"point"
+    },
+    {
+        "lat": "50.75549030194438",
+        "lon": "-1.5456816126335529",
+        "name": "Lymington",
+        "description":"Overnight stay",
+        "type":"point"
+    },
+    {
+        "lat": "50.829370648035535",
+        "lon": "-0.6318800861012618",
+        "name": "Barnham (Portsmouth)",
+        "description":"Overnight stay",
+        "type":"point"
+    },
+    {
+        "lat": "50.83963583097494",
+        "lon": "0.473765193450581",
+        "name": "Bexhill (Brighton)",
+        "description":"Overnight stay",
+        "type":"point"
+    },
+    {
+        "lat": "51.124966413517456",
+        "lon": "1.318267002707629",
+        "name": "Dover (London)",
+        "description":"End of Tour",
+        "type":"point"
+    }
+  ],
   "routes": [
       {
           "from": {
@@ -21,6 +93,19 @@
           },
           "description": "Day -1"
       },
+      {
+        "from": {
+            "lat": "50.04551361541087",
+            "lon": "-5.654229852009903",
+            "name": "'s End"
+        },
+        "to": {
+            "lat": "50.12233053733513",
+            "lon": "-5.531057326657287",
+            "name": "Penzance"
+        },
+        "description": "Day -1"
+    },
       {
         "from": {
             "lat": "49.91459373326012",
@@ -73,19 +158,6 @@
         },
         "description": "Day 0"
     },
-      {
-          "from": {
-              "lat": "50.04551361541087",
-              "lon": "-5.654229852009903",
-              "name": "Penzance"
-          },
-          "to": {
-              "lat": "50.12233053733513",
-              "lon": "-5.531057326657287",
-              "name": "St. Austell"
-          },
-          "description": "Day 1"
-      },
       {
           "from": {
               "lat": "50.12233053733513",

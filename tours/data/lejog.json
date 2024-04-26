@@ -7,6 +7,120 @@
             "line": "solid"
         }
     },
+    "locations":[
+        {
+            "lat": "50.06680120101126",
+            "lon": "-5.706929462240461",
+            "name": "Land's End",
+            "description":"Start of Tour",
+            "type":"point"
+        },
+        {
+            "lat": "50.34918371127765",
+            "lon": "-4.706120838055638",
+            "name": "Par",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "50.716359718989764",
+            "lon": "-3.8613849101946256",
+            "name": "Whiddon Down",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "51.12625647392076",
+            "lon": "-2.9991736654036414",
+            "name": "Bridgwater",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "51.69885429742433",
+            "lon": "-2.679096884247654",
+            "name": "Tintern",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "52.529006876541416",
+            "lon": "-2.9106079568949594",
+            "name": "Wentnor",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "53.273872257233194",
+            "lon": "-2.6056593811743762",
+            "name": "Acton Bridge",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "53.874946994543535",
+            "lon": "-2.3868229205906575",
+            "name": "Clitheroe",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "54.43603602567208",
+            "lon": "-2.4301216853767587",
+            "name": "Ravenstonedale",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "55.05895778960178",
+            "lon": "-3.265666090723927",
+            "name": "Ecclefechan",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "55.79108335000615",
+            "lon": "-3.9918585508267563",
+            "name": "Strathclyde Country Park",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "56.23350748631344",
+            "lon": "-5.069685198184348",
+            "name": "Inveraray",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "56.82014199190451",
+            "lon": "-5.106843044872409",
+            "name": "Fort William",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "57.66338510239106",
+            "lon": "-4.337530801468218",
+            "name": "Evanton",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "58.52543526279899",
+            "lon": "-4.2222678643147615",
+            "name": "Bettyhill",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "58.6436599819869",
+            "lon": "-3.0707896260254315",
+            "name": "John O'Groats",
+            "description":"End of Tour",
+            "type":"point"
+        }
+    ],
     "routes": [
         {
             "from": {
@@ -95,7 +209,7 @@
             "to": {
                 "lat": "51.55601030358247",
                 "lon": "-2.626042062509214",
-                "name": "Bridgwater"
+                "name": "Tintern"
             },
             "description": "Day 4"
         },

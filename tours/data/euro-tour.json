@@ -7,6 +7,100 @@
             "line": "solid"
         }
     },
+    "locations":[
+        {
+            "lat": "51.53744480816417",
+            "lon": "-0.03559069744498622",
+            "name": "London",
+            "description":"Start of Tour",
+            "type":"point"
+        },
+        {
+            "lat": "51.12519325595375",
+            "lon": "1.3144170206281163",
+            "name": "Dover",
+            "description":"Ferry departure",
+            "type":"point"
+        },
+        {
+            "lat": "50.96756914639457",
+            "lon": "1.8581253520736178",
+            "name": "Calais",
+            "description":"Ferry arrival",
+            "type":"point"
+        },
+        {
+            "lat": "51.03856241931632",
+            "lon": "2.3769210061925072",
+            "name": "Dunkerque",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "51.20939998231182",
+            "lon": "3.2277663129528342",
+            "name": "Brugges",
+            "description":"Overnight Stay",
+            "type":"point"
+        },
+        {
+            "lat": "52.08107764130142",
+            "lon": "4.313345985433508",
+            "name": "Den Haag",
+            "description":"Overnight Stay",
+            "type":"point"
+        },
+        {
+            "lat": "51.98304256819958",
+            "lon": "5.9109590313555085",
+            "name": "Amersfoort",
+            "description":"Overnight Stay",
+            "type":"point"
+        },
+        {
+            "lat": "51.842571321297015",
+            "lon": "5.853743301886712",
+            "name": "Nijmegen",
+            "description":"End of main tour",
+            "type":"point"
+        },
+        {
+            "lat": "51.9257071602448",
+            "lon": "4.469726622454219",
+            "name": "Rotterdam",
+            "description":"Ferry day home",
+            "type":"point"
+        },
+        {
+            "lat": "57.479368229621315",
+            "lon": "-4.221860420599105",
+            "name": "Hoek Van Holland",
+            "description":"Ferry departure",
+            "type":"point"
+        },
+        {
+            "lat": "51.949663044980895",
+            "lon": "1.2481725849468066",
+            "name": "Harwich",
+            "description":"Ferry arrival and overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "51.87714768798051",
+            "lon": "0.6880530847300667",
+            "name": "Colchester",
+            "description":"Overnight stay",
+            "type":"point"
+        }
+        ,
+        {
+            "lat": "51.53744480816417",
+            "lon": "-0.03559069744498622",
+            "name": "London",
+            "description":"End of tour",
+            "type":"point"
+        }
+    ],
     "routes": [
         {
             "from": {
@@ -493,12 +587,12 @@
             "from": {
                 "lat": "51.98304256819958",
                 "lon": "5.9109590313555085",
-                "name": "Den Haag"
+                "name": "Amersfoort"
             },
             "to": {
                 "lat": "51.840771072585284",
                 "lon": "6.226708914278417",
-                "name": "Amersfoort"
+                "name": "Nijmegen"
             },
             "description": "Day 5 - Amersfoort - Nijmegen"
         },
@@ -506,12 +600,12 @@
             "from": {
                 "lat": "51.840771072585284",
                 "lon": "6.226708914278417",
-                "name": "Den Haag"
+                "name": "Amersfoort"
             },
             "to": {
                 "lat": "51.820963585265446",
                 "lon": "6.226708914278417",
-                "name": "Amersfoort"
+                "name": "Nijmegen"
             },
             "description": "Day 5 - Amersfoort - Nijmegen"
         },
@@ -519,12 +613,12 @@
             "from": {
                 "lat": "51.820963585265446",
                 "lon": "6.226708914278417",
-                "name": "Den Haag"
+                "name": "Amersfoort"
             },
             "to": {
                 "lat": "51.842571321297015",
                 "lon": "5.853743301886712",
-                "name": "Amersfoort"
+                "name": "Nijmegen"
             },
             "description": "Day 5 - Amersfoort - Nijmegen"
         },

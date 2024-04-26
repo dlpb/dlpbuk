@@ -7,6 +7,78 @@
             "line": "solid"
         }
     },
+    "locations":[
+        {
+            "lat": "51.53667840956635",
+            "lon": "-0.03391928408774466",
+            "name": "London",
+            "description":"London (Start of many tours)",
+            "type":"point"
+        },
+        {
+            "lat": "52.19435619938156",
+            "lon": "0.13781798940554355",
+            "name": "Cambridge",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "52.983335632642735",
+            "lon": "-0.030951603476696878",
+            "name": "Boston",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "53.444193353739394",
+            "lon": "-0.7202561503253433",
+            "name": "Blyton",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "53.958369846221814",
+            "lon": "-1.0894884033863985",
+            "name": "York",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "54.57863596330125",
+            "lon": "-1.243127744482787",
+            "name": "Middlesbrough",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "55.043241563081864",
+            "lon": "-1.4415263575096635",
+            "name": "Whitley Bay",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "55.580919247711506",
+            "lon": "-1.6548986800611816",
+            "name": "Seahouses",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "55.59708364976504",
+            "lon": "-2.71770425184194",
+            "name": "Melrose",
+            "description":"Overnight stay",
+            "type":"point"
+        },
+        {
+            "lat": "55.95222060181038",
+            "lon": "-3.1883610230210855",
+            "name": "Edinburgh",
+            "description":"Overnight stay",
+            "type":"point"
+        }
+    ],
     "routes": [
         {
             "from": {

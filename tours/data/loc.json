@@ -7,6 +7,43 @@
           "line": "solid"
       }
   },
+  "locations":[
+    {
+        "lat": "51.53667840956635",
+        "lon": "-0.03391928408774466",
+        "name": "London",
+        "description":"London (Start of many tours)",
+        "type":"point"
+    },
+    {
+        "lat": "51.512221938099174",
+        "lon": "-0.5913324006636004",
+        "name": "Slough",
+        "description":"Overnight stay",
+        "type":"point"
+    },
+    {
+        "lat": "51.379097032321965",
+        "lon": "-1.5985817165636493",
+        "name": "Bedwyn (Newbury)",
+        "description":"Overnight stay",
+        "type":"point"
+    },
+    {
+        "lat": "51.449104416741136",
+        "lon": "-2.601206910474065",
+        "name": "Bristol",
+        "description":"Overnight stay",
+        "type":"point"
+    },
+    {
+        "lat": "51.475407814497146",
+        "lon": "-3.1778723079953615",
+        "name": "Cardiff",
+        "description":"End of the tour",
+        "type":"point"
+    }
+  ],
   "routes": [
       {
           "from": {
