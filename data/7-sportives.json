@@ -10,6 +10,14 @@
         "grouping":true
     },
     "data": {
+        "2024":{
+            "data":[
+                {
+                    "link_text":"London Pheonix Easter Classic, 2024",
+                    "url": "https://www.strava.com/activities/11083907738"
+                }
+            ]
+        },
         "2023":{
             "data":[
                 {
@@ -44,7 +52,7 @@
                     "url":"https://www.strava.com/activities/8901632039"
                 },
                 {
-                    "link_text":"Ware's Cambridge, 2023",
+                    "link_text":"Wares Cambridge, 2023",
                     "url":"https://www.strava.com/activities/8703987288"
                 }
             ]
@@ -87,7 +95,7 @@
                     "url": "https://www.strava.com/activities/7002186152"
                 },
                 {
-                    "link_text":"Ware's Cambridge, 2022",
+                    "link_text":"Wares Cambridge, 2022",
                     "url": "https://www.strava.com/activities/6854850837"
                 }
             ]
@@ -99,7 +107,7 @@
                     "url": "https://www.strava.com/activities/6225241187"
                 },
                 {
-                    "link_text":"Ware's Essex, 2021",
+                    "link_text":"Wares Essex, 2021",
                     "url": "https://www.strava.com/activities/6058416721"
                 },
                 {

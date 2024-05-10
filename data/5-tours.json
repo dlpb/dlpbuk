@@ -10,6 +10,15 @@
     },
     "data":[
         {
+            "name":"London to Manchester 2024",
+            "badges":["7 Days", "800km", "Guest Rider"],
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/F35xa91GkNJVV0XIoaVrPavsC_3HgkYPbXy7YH3QiNs-2048x1536.jpg",
+                "alt_text":"Concorde at Manchester Airport",
+                "width":100
+            }
+        },
+        {
             "name":"RCC Euro Tour 2023",
             "url":"https://www.strava.com/athletes/6124264/posts/25462095",
             "link_text":"9 Day Club Ride in Summer 2023",

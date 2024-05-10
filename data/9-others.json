@@ -10,6 +10,14 @@
         "grouping":true
     },
     "data": {
+        "2024":{
+            "data":[
+                {
+                    "link_text":"2,500m Swimathon, 2024",
+                    "url": "https://www.strava.com/activities/11273204043"
+                }
+            ]
+        },
         "2023":{
             "data":[
                 {
