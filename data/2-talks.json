@@ -25,9 +25,7 @@
                     "name":"BBC Wistem Network, Zoom, 2021"
                 },
                 {
-                    "link_text":"Re:Develop Bournemouth, UK, 2019 (link)",
-                    "url":"https://redevelop.io/speakers#daniel-brown",
-                    "url_style":"text-faded"
+                    "name":"Re:Develop Bournemouth, UK, 2019"
                 },
                 {
                     "name":"Female Coding Society, Computer and Information Sciences, University of Glasgow, 2019"
@@ -36,14 +34,10 @@
         "Scala, Docker, and Testing. Oh My!":{
             "data":[
                 {
-                    "link_text":"Scala IO, France, 2016 (link)",
-                    "url":"https://www.youtube.com/watch?v=yTW5o7VIBFg",
-                    "url_style":"text-faded"
+                    "name":"Scala IO, France, 2016"
                 },
                 {
-                    "link_text":"J On The Beach, Spain, 2016 (link)",
-                    "url":"https://www.youtube.com/watch?v=Q1XqOLPhr-k",
-                    "url_style":"text-faded"
+                    "name":"J On The Beach, Spain, 2016"
                 }
             ]}
     }

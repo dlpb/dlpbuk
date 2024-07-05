@@ -11,7 +11,27 @@
     },
     "data": [
         {
-            "name":"E91/10 RCC 10 mile Time Trial, 34:10, 2023",
+            "name":"RCC 10 mile Time Trial around Hog Hill, 40:33, 2024",
+            "url":"https://www.strava.com/activities/11792965593",
+            "link_text":"RCC 10 mile time trial on the Hog Hill track at Redbridge Cycle Center. 10 miles in 38:54.",
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/Si7kh5nVC3w3PQ0-s5WyerbCuomHgdu7RKZERibFg08-1536x2048.jpg",
+                "alt_text":"Results sheet for RCC 10 mile time trial",
+                "width":100
+            }
+        },
+        {
+            "name":"E91/10 RCC 10 mile Time Trial, 36:01, 2024",
+            "url":"https://www.strava.com/activities/11720785095",
+            "link_text":"RCC 10 mile time trial 2 up on the E83/10 course. Ridden with Jake Spurdle",
+            "image":{
+                "url":"https://dgtzuqphqg23d.cloudfront.net/MXP2OWeJPnwT9VTaf2g6rbSPZISsUlZQFbUSyle5mQ8-1536x2048.jpg",
+                "alt_text":"Results sheet for RCC 10 mile time trial",
+                "width":100
+            }
+        },
+        {
+            "name":"E83/10 RCC 10 mile Time Trial, 34:10, 2023",
             "url":"https://www.strava.com/activities/9638200552",
             "link_text":"RCC 10 mile time trial 2 up on the E83/10 course. Ridden with Jake Spurdle",
             "image":{
