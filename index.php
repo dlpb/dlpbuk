@@ -155,6 +155,14 @@
                     }
                     $href = "<p><a href='$url' target='blank'>$link_text</a></p>";
                 }
+                if(isset($data->data)){
+                    $href="<ul class='list-unstyled'>";
+                    foreach($data->data as $d){
+                        $name = htmlspecialchars($d->name);
+                        $href = $href."<li>$name</li>";
+                    }
+                    $href = $href."</ul>";
+                }
                 if(isset($data->image)){
                     $image = $data->image;
                     if(isset($image->url) && isset($image->alt_text)){

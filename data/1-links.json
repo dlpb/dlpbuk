@@ -10,15 +10,6 @@
         "grouping":false
     },
     "data": [
-        {
-            "url":"https://www.linkedin.com/in/daniel-brown-83b48758/",
-            "link_text":"LinkedIn",
-            "url_style":"btn btn-dark btn-xl"
-        },
-        {
-            "url":"https://github.com/dlpb/",
-            "link_text":"Github",
-            "url_style":"btn btn-dark btn-xl"
-        }
+       
     ]
 }

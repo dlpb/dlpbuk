@@ -10,10 +10,6 @@
         "grouping":false
     },
     "data": [
-        {
-            "url":"https://www.strava.com/athletes/dlpb",
-            "link_text":"Strava",
-            "url_style":"btn btn-dark btn-xl"
-        }
+        
     ]
 }

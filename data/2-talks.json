@@ -13,31 +13,25 @@
         "Reducing the On Call Nightmare": {
             "data":[
                 {
-                    "name":"BBC Develop Conference, London, 2023"
+                    "name":"Presented in 2023"
                 }
-            ]},
+            ]}, 
+        "[My] Adventures with WAF": {
+                "data":[
+                    {
+                        "name":"Presented in 2023, 2022"
+                    }
+                ]},
         "(My Journey to) Working Effectively with Legacy Code":{
             "data":[
                 {
-                    "name":"BBC Develop Conference, Glasgow, 2022"
-                },
-                {
-                    "name":"BBC Wistem Network, Zoom, 2021"
-                },
-                {
-                    "name":"Re:Develop Bournemouth, UK, 2019"
-                },
-                {
-                    "name":"Female Coding Society, Computer and Information Sciences, University of Glasgow, 2019"
+                    "name":"Presented in 2022, 2021, 2019"
                 }
             ]},
         "Scala, Docker, and Testing. Oh My!":{
             "data":[
                 {
-                    "name":"Scala IO, France, 2016"
-                },
-                {
-                    "name":"J On The Beach, Spain, 2016"
+                    "name":"Presented in 2016"
                 }
             ]}
     }

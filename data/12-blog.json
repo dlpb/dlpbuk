@@ -10,10 +10,6 @@
         "grouping":false
     },
     "data": [
-        {
-            "url":"http://blog.dlpb.uk",
-            "link_text":"Blog",
-            "url_style":"btn btn-light btn-xl text-dark"
-        }
+       
     ]
 }
