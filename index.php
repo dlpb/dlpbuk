@@ -158,8 +158,8 @@
                 if(isset($data->data)){
                     $href="<ul class='list-unstyled'>";
                     foreach($data->data as $d){
-                        $name = htmlspecialchars($d->name);
-                        $href = $href."<li>$name</li>";
+                        $text = htmlspecialchars($d->name);
+                        $href = $href."<li>$text</li>";
                     }
                     $href = $href."</ul>";
                 }
