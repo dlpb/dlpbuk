@@ -13,134 +13,137 @@
         "2024":{
             "data":[
                 {
-                    "name":"London Pheonix Easter Classic, 2024"
+                    "name":"Redbourn Road Rider"
+                },
+                {
+                    "name":"London Phoenix Easter Classic"
                 }
             ]
         },
         "2023":{
             "data":[
                 {
-                    "name":"Essex Season Ender, 2023"
+                    "name":"Essex Season Ender"
                 },
                 {
-                    "name":"Wares Essex, 2023"
+                    "name":"Wares Essex"
                 },
                 {
-                    "name":"Liverpool Chester Liverpool 100 mile route, 2023"
+                    "name":"Liverpool Chester Liverpool 100 mile route"
                 },
                 {
-                    "name":"Challenge MND Inaugural Sportive, 100 mile route, 2023"
+                    "name":"Challenge MND Inaugural Sportive, 100 mile route"
                 },
                 {
-                    "name":"Tour of Essex, 2023"
+                    "name":"Tour of Essex"
                 },
                 {
-                    "name":"5 Boros Bike Tour, New York, 2023",
+                    "name":"5 Boros Bike Tour, New York",
                     "badges":[
                         "International"
                     ]
                 },
                 {
-                    "name":"Herts Easter Egg Hunt, 2023"
+                    "name":"Herts Easter Egg Hunt"
                 },
                 {
-                    "name":"Wares Cambridge, 2023"
+                    "name":"Wares Cambridge"
                 }
             ]
         },
         "2022":{
             "data":[
                 {
-                    "name":"Essex Season Ender, 2023"
+                    "name":"Essex Season Ender"
                 },
                 {
-                    "name":"Velocity Berlin, 2022",
+                    "name":"Velocity Berlin",
                     "badges":[
                         "International"
                     ]
                 },
                 {
-                    "name":"BHF London to Brighton Ride, 2022"
+                    "name":"BHF London to Brighton Ride"
                 },
                 {
-                    "name":"Tour of Essex, 2022"
+                    "name":"Tour of Essex"
                 },
                 {
-                    "name":"Ride London - Essex, 2022"
+                    "name":"Ride London - Essex"
                 },
                 {
-                    "name":"Tour de Manc 100 mile route, 2022"
+                    "name":"Tour de Manc 100 mile route"
                 },
                 {
-                    "name":"Herts Easter Egg Hunt, 2022"
+                    "name":"Herts Easter Egg Hunt"
                 },
                 {
-                    "name":"London Pheonix Easter Classic, 2022"
+                    "name":"London Phoenix Easter Classic"
                 },
                 {
-                    "name":"Wares Cambridge, 2022"
+                    "name":"Wares Cambridge"
                 }
             ]
         },
         "2021":{
             "data":[
                 {
-                    "name":"Essex Season Ender, 2021"
+                    "name":"Essex Season Ender"
                 },
                 {
-                    "name":"Wares Essex, 2021"
+                    "name":"Wares Essex"
                 },
                 {
-                    "name":"Redbourne RR Sportive, 2021"
+                    "name":"Redbourn RR Sportive"
                 },
                 {
-                    "name":"Tour of Essex, 2021"
+                    "name":"Tour of Essex"
                 },
                 {
-                    "name":"Herts Easter Egg Hunt, 2021"
+                    "name":"Herts Easter Egg Hunt"
                 }
             ]
         },
         "2020":{
             "data":[
                 {
-                    "name":"Essex Season Ender, 2020"
+                    "name":"Essex Season Ender"
                 },
                 {
-                    "name":"Virtual Ride London, 2020"
+                    "name":"Virtual Ride London"
                 }
             ]
         },
         "2019":{
             "data":[
                 {
-                    "name":"Pedal for Scotland, 2019"
+                    "name":"Pedal for Scotland"
                 },
                 {
-                    "name":"Ride London, 2019"
+                    "name":"Ride London"
                 },
                 {
-                    "name":"Velo Birmingham and Midlands, 2019"
+                    "name":"Velo Birmingham and Midlands"
                 },
                 {
-                    "name":"London Pheonix Easter Classic, Short Route, 2019"
+                    "name":"London Phoenix Easter Classic, Short Route"
                 }
             ]
         },
         "2017":{
             "data":[
                 {
-                    "name":"Ride London, 2017"
+                    "name":"Ride London"
                 },
                 {
-                    "name":"Velothon Wales, 2017"
+                    "name":"Velothon Wales"
                 }
             ]
         },
         "2016":{
             "data":[
                 {
-                    "name":"Ride London, 2016"
+                    "name":"Ride London"
                 }
             ]
         }
