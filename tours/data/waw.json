@@ -1,0 +1,644 @@
+{
+    "details": {
+        "name": "Wild Atlantic Way",
+        "type": "Tour",
+        "style": {
+            "colour": "#336677",
+            "line": "solid"
+        }
+    },
+    "locations": [
+        {
+            "lat": "51.527121121301576",
+            "lon": "-9.543398704041087",
+            "name": "Schull",
+            "description": "Start of Tour",
+            "type": "point"
+        },
+        {
+            "lat": "51.45025177863002",
+            "lon": "-9.810193672264448",
+            "name": "Mizen Head",
+            "description": "Ireland's Most Southerly Point",
+            "type": "point"
+        },
+        {
+            "lat": "51.87818344879733",
+            "lon": "-9.583324405131762",
+            "name": "Kenmare",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "52.10743788310546",
+            "lon": "-9.783581538341286",
+            "name": "Kilorglin",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "52.64172299027149",
+            "lon": "-9.491005673004484",
+            "name": "Kilrush",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "53.11595663057824",
+            "lon": "-9.148464253917586",
+            "name": "Ballyvaughan",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "53.623463572432314",
+            "lon": "-9.222167689000738",
+            "name": "Ballinrobe",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "54.273456260982755",
+            "lon": "-8.477028991807813",
+            "name": "Sligo",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "54.63665957039254",
+            "lon": "-8.445891552482271",
+            "name": "Killybegs",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "55.182046214555015",
+            "lon": "-7.972136338397149",
+            "name": "Dunfanaghy",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "55.13070293218726",
+            "lon": "-7.4566224696811405",
+            "name": "Buncrana",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "55.38038261920218",
+            "lon": "-7.374000586221343",
+            "name": "Malin Head",
+            "description": "Ireland's Most Northernly Point. End of Tour",
+            "type": "point"
+        }
+    ],
+    "routes": [
+        {
+            "from": {
+                "lat": "51.527121121301576",
+                "lon": "-9.543398704041087",
+                "name": "Schull"
+            },
+            "to": {
+                "lat": "51.51799129347475",
+                "lon": "-9.665316683610676",
+                "name": "Mizen Head"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "51.51799129347475",
+                "lon": "-9.665316683610676",
+                "name": "Schull"
+            },
+            "to": {
+                "lat": "51.45025177863002",
+                "lon": "-9.810193672264448",
+                "name": "Mizen Head"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "51.45025177863002",
+                "lon": "-9.810193672264448",
+                "name": "Mizen Head"
+            },
+            "to": {
+                "lat": "51.680139395648865",
+                "lon": "-9.45295179763884",
+                "name": "Kenmare"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "51.680139395648865",
+                "lon": "-9.45295179763884",
+                "name": "Mizen Head"
+            },
+            "to": {
+                "lat": "51.72485509687911",
+                "lon": "-9.442380799116444",
+                "name": "Kenmare"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "51.72485509687911",
+                "lon": "-9.442380799116444",
+                "name": "Mizen Head"
+            },
+            "to": {
+                "lat": "51.87818344879733",
+                "lon": "-9.583324405131762",
+                "name": "Kenmare"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "51.87818344879733",
+                "lon": "-9.583324405131762",
+                "name": "Kenmare"
+            },
+            "to": {
+                "lat": "51.83806435014057",
+                "lon": "-9.900322779041742",
+                "name": "Kilorglin"
+            },
+            "description": "Day 2"
+        },
+        {
+            "from": {
+                "lat": "51.83806435014057",
+                "lon": "-9.900322779041742",
+                "name": "Kenmare"
+            },
+            "to": {
+                "lat": "51.89598704936094",
+                "lon": "-9.760590495473428",
+                "name": "Kilorglin"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "51.89598704936094",
+                "lon": "-9.760590495473428",
+                "name": "Kenmare"
+            },
+            "to": {
+                "lat": "51.99455767405061",
+                "lon": "-9.86109275651313",
+                "name": "Kilorglin"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "51.99455767405061",
+                "lon": "-9.86109275651313",
+                "name": "Kenmare"
+            },
+            "to": {
+                "lat": "52.10743788310546",
+                "lon": "-9.783581538341286",
+                "name": "Kilorglin"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "52.10743788310546",
+                "lon": "-9.783581538341286",
+                "name": "Kilorglin"
+            },
+            "to": {
+                "lat": "52.27123824176883",
+                "lon": "-9.697957858324939",
+                "name": "Kilrush"
+            },
+            "description": "Day 3"
+        },
+        {
+            "from": {
+                "lat": "52.27123824176883",
+                "lon": "-9.697957858324939",
+                "name": "Kilorglin"
+            },
+            "to": {
+                "lat": "52.511599263125674",
+                "lon": "-9.67713584568447",
+                "name": "Kilrush"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "52.511599263125674",
+                "lon": "-9.67713584568447",
+                "name": "Kilorglin"
+            },
+            "to": {
+                "lat": "52.5732607581152",
+                "lon": "-9.366918891217827",
+                "name": "Kilrush"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "52.5732607581152",
+                "lon": "-9.366918891217827",
+                "name": "Kilorglin"
+            },
+            "to": {
+                "lat": "52.61922037532747",
+                "lon": "-9.38053817214563",
+                "name": "Kilrush"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "52.61922037532747",
+                "lon": "-9.38053817214563",
+                "name": "Kilorglin"
+            },
+            "to": {
+                "lat": "52.64172299027149",
+                "lon": "-9.491005673004484",
+                "name": "Kilrush"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "52.64172299027149",
+                "lon": "-9.491005673004484",
+                "name": "Kilrush"
+            },
+            "to": {
+                "lat": "52.85476540915607",
+                "lon": "-9.402551353349718",
+                "name": "Ballyvaughan"
+            },
+            "description": "Day 4"
+        },
+        {
+            "from": {
+                "lat": "52.85476540915607",
+                "lon": "-9.402551353349718",
+                "name": "Kilrush"
+            },
+            "to": {
+                "lat": "52.93401935673671",
+                "lon": "-9.344293293606526",
+                "name": "Ballyvaughan"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "52.93401935673671",
+                "lon": "-9.344293293606526",
+                "name": "Kilrush"
+            },
+            "to": {
+                "lat": "52.946001857903354",
+                "lon": "-9.44679353477564",
+                "name": "Ballyvaughan"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "52.946001857903354",
+                "lon": "-9.44679353477564",
+                "name": "Kilrush"
+            },
+            "to": {
+                "lat": "53.04668877707917",
+                "lon": "-9.340865191895183",
+                "name": "Ballyvaughan"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "53.04668877707917",
+                "lon": "-9.340865191895183",
+                "name": "Kilrush"
+            },
+            "to": {
+                "lat": "53.11595663057824",
+                "lon": "-9.148464253917586",
+                "name": "Ballyvaughan"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "53.11595663057824",
+                "lon": "-9.148464253917586",
+                "name": "Ballyvaughan"
+            },
+            "to": {
+                "lat": "53.138420491625055",
+                "lon": "-8.934716211324833",
+                "name": "Ballinrobe"
+            },
+            "description": "Day 5"
+        },
+        {
+            "from": {
+                "lat": "53.138420491625055",
+                "lon": "-8.934716211324833",
+                "name": "Ballyvaughan"
+            },
+            "to": {
+                "lat": "53.22874521210832",
+                "lon": "-8.880209394114509",
+                "name": "Ballinrobe"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "53.22874521210832",
+                "lon": "-8.880209394114509",
+                "name": "Ballyvaughan"
+            },
+            "to": {
+                "lat": "53.27058833251169",
+                "lon": "-8.929231248586692",
+                "name": "Ballinrobe"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "53.27058833251169",
+                "lon": "-8.929231248586692",
+                "name": "Ballyvaughan"
+            },
+            "to": {
+                "lat": "53.623463572432314",
+                "lon": "-9.222167689000738",
+                "name": "Ballinrobe"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "53.623463572432314",
+                "lon": "-9.222167689000738",
+                "name": "Ballinrobe"
+            },
+            "to": {
+                "lat": "53.82809726351849",
+                "lon": "-9.194945645410435",
+                "name": "Sligo"
+            },
+            "description": "Day 6"
+        },
+        {
+            "from": {
+                "lat": "53.82809726351849",
+                "lon": "-9.194945645410435",
+                "name": "Ballinrobe"
+            },
+            "to": {
+                "lat": "54.18428290497761",
+                "lon": "-8.51578673498956",
+                "name": "Sligo"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "54.18428290497761",
+                "lon": "-8.51578673498956",
+                "name": "Ballinrobe"
+            },
+            "to": {
+                "lat": "54.273456260982755",
+                "lon": "-8.477028991807813",
+                "name": "Sligo"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "54.273456260982755",
+                "lon": "-8.477028991807813",
+                "name": "Sligo"
+            },
+            "to": {
+                "lat": "54.49892183788887",
+                "lon": "-8.185643249026493",
+                "name": "Killybegs"
+            },
+            "description": "Day 7"
+        },
+        {
+            "from": {
+                "lat": "54.49892183788887",
+                "lon": "-8.185643249026493",
+                "name": "Sligo"
+            },
+            "to": {
+                "lat": "54.65614067536305",
+                "lon": "-8.107503779433372",
+                "name": "Killybegs"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "54.65614067536305",
+                "lon": "-8.107503779433372",
+                "name": "Sligo"
+            },
+            "to": {
+                "lat": "54.63665957039254",
+                "lon": "-8.445891552482271",
+                "name": "Killybegs"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "54.63665957039254",
+                "lon": "-8.445891552482271",
+                "name": "Killybegs"
+            },
+            "to": {
+                "lat": "54.76263377540141",
+                "lon": "-8.411790920105968",
+                "name": "Dunfanaghy"
+            },
+            "description": "Day 8"
+        },
+        {
+            "from": {
+                "lat": "54.76263377540141",
+                "lon": "-8.411790920105968",
+                "name": "Killybegs"
+            },
+            "to": {
+                "lat": "54.95331021288857",
+                "lon": "-8.359422091813782",
+                "name": "Dunfanaghy"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "54.95331021288857",
+                "lon": "-8.359422091813782",
+                "name": "Killybegs"
+            },
+            "to": {
+                "lat": "55.135080831696285",
+                "lon": "-8.118281905724182",
+                "name": "Dunfanaghy"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.135080831696285",
+                "lon": "-8.118281905724182",
+                "name": "Killybegs"
+            },
+            "to": {
+                "lat": "55.182046214555015",
+                "lon": "-7.972136338397149",
+                "name": "Dunfanaghy"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.182046214555015",
+                "lon": "-7.972136338397149",
+                "name": "Dunfanaghy"
+            },
+            "to": {
+                "lat": "55.08960189289235",
+                "lon": "-7.705069934137094",
+                "name": "Buncrana"
+            },
+            "description": "Day 9"
+        },
+        {
+            "from": {
+                "lat": "55.08960189289235",
+                "lon": "-7.705069934137094",
+                "name": "Dunfanaghy"
+            },
+            "to": {
+                "lat": "55.09482894711266",
+                "lon": "-7.533957832391694",
+                "name": "Buncrana"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.09482894711266",
+                "lon": "-7.533957832391694",
+                "name": "Dunfanaghy"
+            },
+            "to": {
+                "lat": "55.130006656604394",
+                "lon": "-7.459667169000453",
+                "name": "Buncrana"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.130006656604394",
+                "lon": "-7.459667169000453",
+                "name": "Dunfanaghy"
+            },
+            "to": {
+                "lat": "55.063805089421464",
+                "lon": "-7.453577770361827",
+                "name": "Buncrana"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.063805089421464",
+                "lon": "-7.453577770361827",
+                "name": "Dunfanaghy"
+            },
+            "to": {
+                "lat": "55.051249277671275",
+                "lon": "-7.504728718926288",
+                "name": "Buncrana"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.051249277671275",
+                "lon": "-7.504728718926288",
+                "name": "Dunfanaghy"
+            },
+            "to": {
+                "lat": "55.05229574572772",
+                "lon": "-7.457840349408865",
+                "name": "Buncrana"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.05229574572772",
+                "lon": "-7.457840349408865",
+                "name": "Dunfanaghy"
+            },
+            "to": {
+                "lat": "55.13070293218726",
+                "lon": "-7.4566224696811405",
+                "name": "Buncrana"
+            },
+            "description": ""
+        },
+        {
+            "from": {
+                "lat": "55.13070293218726",
+                "lon": "-7.4566224696811405",
+                "name": "Buncrana"
+            },
+            "to": {
+                "lat": "55.25182522271703",
+                "lon": "-7.261955651270619",
+                "name": "Malin Head"
+            },
+            "description": "Day 10"
+        },
+        {
+            "from": {
+                "lat": "55.25182522271703",
+                "lon": "-7.261955651270619",
+                "name": "Buncrana"
+            },
+            "to": {
+                "lat": "55.38038261920218",
+                "lon": "-7.374000586221343",
+                "name": "Malin Head"
+            },
+            "description": ""
+        }
+    ]
+}
