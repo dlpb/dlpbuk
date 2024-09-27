@@ -778,6 +778,7 @@ function addLocationToTable(lat, lon, name){
     location.type = "point";
     locationTableData.push(location);
     populateTables();
+    refreshDraw();
 }
 
 function saveTableDataToModel(){
