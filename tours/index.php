@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Map">
-        <meta name="author" content="Daniel Brown">
+        <meta name="author" content="">
         <title>Map</title>
         <style>
             .map {
                 width: 100%;
-                height: 400px;
+                height: 100%;
             }
             .ol-popup {
                 position: absolute;
@@ -59,7 +59,7 @@
         <script src='https://code.jquery.com/jquery-3.6.2.min.js' integrity='sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=' crossorigin='anonymous'></script>
         <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/ol@v7.1.0/ol.css'>
         <div id='content-placeholder'></div>
-        <div id='map' style='width:100%; height:30em;'></div>
+        <div id='map' style='position: fixed; top: 0; left: 0; bottom: 0; right: 0;'></div>
         <!-- position: fixed; top: 0; left: 0; bottom: 0; right: 0; -->
         <div id="popup" class="ol-popup">
             <a href="#" id="popup-closer" class="ol-popup-closer"></a>
