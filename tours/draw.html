@@ -261,26 +261,30 @@ function loadFile(){
         colour = json.details.style.colour;
         lineStyle = json.details.style.line;
 
-        var routes = json.routes;
-        routes.forEach(r => {
-            var data = makeNewTableRowData();
+        if(json.routes){
+            var routes = json.routes;
+            routes.forEach(r => {
+                var data = makeNewTableRowData();
 
-            data.from.lat = r.from.lat;
-            data.from.lon = r.from.lon;
-            data.from.name = r.from.name;
-            data.to.lat = r.to.lat;
-            data.to.lon = r.to.lon;
-            data.to.name = r.to.name;
-            data.segment.description = r.description;
+                data.from.lat = r.from.lat;
+                data.from.lon = r.from.lon;
+                data.from.name = r.from.name;
+                data.to.lat = r.to.lat;
+                data.to.lon = r.to.lon;
+                data.to.name = r.to.name;
+                data.segment.description = r.description;
 
-            routeTableData.push(data);
-        });
+                routeTableData.push(data);
+            });
+        }
 
-        var locations = json.locations;
+        if(json.locations) {
+            var locations = json.locations;
 
-        locations.forEach(l => {
-            locationTableData.push(l);
-        });
+            locations.forEach(l => {
+                locationTableData.push(l);
+            });
+        }
 
         refreshDraw();
     };
@@ -657,6 +661,7 @@ function populateTables(){
     locationTable.replaceChild(newLocationTableBody, locationTableBody);
 
 }
+
 function setLocationCoordsFromMap(index){
     draw.finishDrawing();
     mode = "location-get-coords";
