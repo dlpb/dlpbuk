@@ -7,4 +7,5 @@ Crawl-delay: 1
 Disallow: /data/
 Disallow: /tours/
 Disallow: /style/
+Disallow: /
 Disallow: *.ini
