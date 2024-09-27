@@ -4,7 +4,7 @@
         "type": "Rides",
         "year": 2017,
         "style": {
-            "colour": " #FF9768",
+            "colour": "#FF9768",
             "line": "dashed"
         }
     },
