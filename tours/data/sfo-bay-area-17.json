@@ -2,6 +2,7 @@
     "details": {
         "name": "Bay Area",
         "type": "Rides",
+        "year": 2017,
         "style": {
             "colour": " #FF9768",
             "line": "dashed"

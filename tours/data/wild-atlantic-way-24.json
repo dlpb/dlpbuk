@@ -1,9 +1,10 @@
 {
     "details": {
-        "name": "Wild Atlantic Way",
+        "name": "Wild Atlantic Way (EuroVelo 1 Atlantic Coast Route)",
         "type": "Tour",
+        "year": 2024,
         "style": {
-            "colour": "#336677",
+            "colour": "#bfb641",
             "line": "solid"
         }
     },

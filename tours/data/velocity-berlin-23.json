@@ -2,6 +2,7 @@
     "details": {
         "name": "Velocity Berlin",
         "type": "Sportive",
+        "year": 2023,
         "style": {
             "colour": " #AA8A00",
             "line": "dashed"

@@ -2,6 +2,7 @@
   "details": {
       "name": "South Coast Explorer",
       "type": "Tour",
+      "year": 2022,
       "style": {
           "colour": "#009900",
           "line": "solid"

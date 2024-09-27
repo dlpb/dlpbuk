@@ -2,6 +2,7 @@
     "details": {
         "name": "Lake Tahoe Circular",
         "type": "Ride",
+        "year": 2017,
         "style": {
             "colour": " #0B421A",
             "line": "dashed"

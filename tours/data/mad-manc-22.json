@@ -2,6 +2,7 @@
     "details": {
         "name": "Mad Manc",
         "type": "Sportive",
+        "year": 2022,
         "style": {
             "colour": "#db781b",
             "line": "dashed"

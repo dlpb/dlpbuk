@@ -2,6 +2,7 @@
     "details": {
         "name": "Land's End to John O'Groats",
         "type": "Tour",
+        "year": 2018,
         "style": {
             "colour": "#990000",
             "line": "solid"

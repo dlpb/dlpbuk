@@ -1,7 +1,8 @@
 {
     "details": {
-        "name": "Glasgow to Inverness",
+        "name": "Glasgow to Inverness (EuroVelo 12 North Sea Cycle Route)",
         "type": "Tour",
+        "year": 2023,
         "style": {
             "colour": "#4297a0",
             "line": "solid"

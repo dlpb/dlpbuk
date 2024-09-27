@@ -2,6 +2,7 @@
     "details": {
         "name": "London to Manchester",
         "type": "Tour",
+        "year": 2024,
         "style": {
             "colour": "#17a589",
             "line": "solid"

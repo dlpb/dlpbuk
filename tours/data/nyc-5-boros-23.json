@@ -2,6 +2,7 @@
     "details": {
         "name": "5 Boros Bike Tour",
         "type": "Sportitive",
+        "year": 2023,
         "style": {
             "colour": "#009900",
             "line": "dashed"

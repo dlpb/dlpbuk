@@ -1,7 +1,8 @@
 {
     "details": {
-        "name": "RCC Euro Tour 2023",
+        "name": "RCC Euro Tour",
         "type": "Tour",
+        "year": 2023,
         "style": {
             "colour": "#990099",
             "line": "solid"
@@ -564,11 +565,37 @@
                 "name": "Den Haag"
             },
             "to": {
+                "lat": "52.30265011296464",
+                "lon": "5.024634740620223",
+                "name": "Amersfoort"
+            },
+            "description": "Day 4 - Den Haag - Amersfoort"
+        },
+        {
+            "from": {
+                "lat": "52.30265011296464",
+                "lon": "5.024634740620223",
+                "name": "Den Haag"
+            },
+            "to": {
                 "lat": "52.157137245154274",
                 "lon": "5.374820963542429",
                 "name": "Amersfoort"
             },
             "description": "Day 4 - Den Haag - Amersfoort"
+        },
+        {
+            "from": {
+                "lat": "52.157137245154274",
+                "lon": "5.374820963542429",
+                "name": "Den Haag"
+            },
+            "to": {
+                "lat": "51.98304256819958",
+                "lon": "5.9109590313555085",
+                "name": "Amersfoort"
+            },
+            "description": "Day 5 - Amersfoort - Nijmegen"
         },
         {
             "from": {

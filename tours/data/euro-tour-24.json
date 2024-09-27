@@ -1,0 +1,691 @@
+{
+    "details": {
+        "name": "RCC Euro Tour",
+        "type": "Tour",
+        "year": 2024,
+        "style": {
+            "colour": "#336699",
+            "line": "solid"
+        }
+    },
+    "locations": [
+        {
+            "lat": "51.01995741531701",
+            "lon": "2.1917415519073984",
+            "name": "Day 1",
+            "description": "Start of Tour",
+            "type": "point"
+        },
+        {
+            "lat": "50.85254242875544",
+            "lon": "2.888480983469989",
+            "name": "Day 2",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "51.05373058881142",
+            "lon": "3.7217228011935544",
+            "name": "Day 3",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "51.49355255036721",
+            "lon": "4.277189222246664",
+            "name": "Day 4",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "52.09241082054865",
+            "lon": "5.107861971477463",
+            "name": "Day 5",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "52.95611238462891",
+            "lon": "4.761565627133624",
+            "name": "Day 6",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "51.80741665897705",
+            "lon": "4.6686593916771155",
+            "name": "Day 7",
+            "description": "Train",
+            "type": "point"
+        },
+        {
+            "lat": "51.94318848902097",
+            "lon": "4.12799107076433",
+            "name": "Day 7",
+            "description": "Ferry",
+            "type": "point"
+        },
+        {
+            "lat": "53.74119832000727",
+            "lon": "-0.27730082132517037",
+            "name": "Day 8",
+            "description": "Ferry",
+            "type": "point"
+        },
+        {
+            "lat": "53.79461600696962",
+            "lon": "-1.5483094767499532",
+            "name": "Day 9",
+            "description": "Overnight Stay",
+            "type": "point"
+        },
+        {
+            "lat": "53.47735262021121",
+            "lon": "-2.2306508160694123",
+            "name": "Day 9",
+            "description": "End of Tour",
+            "type": "point"
+        },
+        {
+            "lat": "53.00248542582162",
+            "lon": "4.783750273136171",
+            "name": "Texel Ferry Port",
+            "description": "",
+            "type": "point"
+        },
+        {
+            "lat": "52.964685064963334",
+            "lon": "4.7808202255509284",
+            "name": "Den Helder Ferry Port",
+            "description": "",
+            "type": "point"
+        }
+    ],
+    "routes": [
+        {
+            "from": {
+                "lat": "51.01995741531701",
+                "lon": "2.1917415519073984",
+                "name": "Dunkerque"
+            },
+            "to": {
+                "lat": "51.02835400447",
+                "lon": "2.367256266129134",
+                "name": "Ypres"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "51.02835400447",
+                "lon": "2.367256266129134",
+                "name": "Dunkerque"
+            },
+            "to": {
+                "lat": "50.924982518857036",
+                "lon": "2.5991432903069818",
+                "name": "Ypres"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "50.924982518857036",
+                "lon": "2.5991432903069818",
+                "name": "Dunkerque"
+            },
+            "to": {
+                "lat": "50.85254242875544",
+                "lon": "2.888480983469989",
+                "name": "Ypres"
+            },
+            "description": "Day 1"
+        },
+        {
+            "from": {
+                "lat": "50.85254242875544",
+                "lon": "2.888480983469989",
+                "name": "Ypres"
+            },
+            "to": {
+                "lat": "50.8237301434948",
+                "lon": "3.266921647657987",
+                "name": "Ghent"
+            },
+            "description": "Day 2"
+        },
+        {
+            "from": {
+                "lat": "50.8237301434948",
+                "lon": "3.266921647657987",
+                "name": "Ypres"
+            },
+            "to": {
+                "lat": "50.84253596713424",
+                "lon": "3.616547032846899",
+                "name": "Ghent"
+            },
+            "description": "Day 2"
+        },
+        {
+            "from": {
+                "lat": "50.84253596713424",
+                "lon": "3.616547032846899",
+                "name": "Ypres"
+            },
+            "to": {
+                "lat": "51.05373058881142",
+                "lon": "3.7217228011935544",
+                "name": "Ghent"
+            },
+            "description": "Day 2"
+        },
+        {
+            "from": {
+                "lat": "51.05373058881142",
+                "lon": "3.7217228011935544",
+                "name": "Ghent"
+            },
+            "to": {
+                "lat": "51.175055577092905",
+                "lon": "3.9363961043031175",
+                "name": "Bergen Op Zoom"
+            },
+            "description": "Day 3"
+        },
+        {
+            "from": {
+                "lat": "51.175055577092905",
+                "lon": "3.9363961043031175",
+                "name": "Ghent"
+            },
+            "to": {
+                "lat": "51.24190295257392",
+                "lon": "4.242545879359664",
+                "name": "Bergen Op Zoom"
+            },
+            "description": "Day 3"
+        },
+        {
+            "from": {
+                "lat": "51.24190295257392",
+                "lon": "4.242545879359664",
+                "name": "Ghent"
+            },
+            "to": {
+                "lat": "51.30013739795501",
+                "lon": "4.28965354921842",
+                "name": "Bergen Op Zoom"
+            },
+            "description": "Day 3"
+        },
+        {
+            "from": {
+                "lat": "51.30013739795501",
+                "lon": "4.28965354921842",
+                "name": "Ghent"
+            },
+            "to": {
+                "lat": "51.488605160555664",
+                "lon": "4.224973491800815",
+                "name": "Bergen Op Zoom"
+            },
+            "description": "Day 3"
+        },
+        {
+            "from": {
+                "lat": "51.488605160555664",
+                "lon": "4.224973491800815",
+                "name": "Ghent"
+            },
+            "to": {
+                "lat": "51.49355255036721",
+                "lon": "4.277189222246664",
+                "name": "Bergen Op Zoom"
+            },
+            "description": "Day 3"
+        },
+        {
+            "from": {
+                "lat": "51.49355255036721",
+                "lon": "4.277189222246664",
+                "name": "Bergen Op Zoom"
+            },
+            "to": {
+                "lat": "51.69980310382246",
+                "lon": "4.401485363199285",
+                "name": "Utrecht"
+            },
+            "description": "Day 4"
+        },
+        {
+            "from": {
+                "lat": "51.69980310382246",
+                "lon": "4.401485363199285",
+                "name": "Bergen Op Zoom"
+            },
+            "to": {
+                "lat": "51.84423798555497",
+                "lon": "4.56987296255792",
+                "name": "Utrecht"
+            },
+            "description": "Day 4"
+        },
+        {
+            "from": {
+                "lat": "51.84423798555497",
+                "lon": "4.56987296255792",
+                "name": "Bergen Op Zoom"
+            },
+            "to": {
+                "lat": "51.89050854453478",
+                "lon": "4.639884331076431",
+                "name": "Utrecht"
+            },
+            "description": "Day 4"
+        },
+        {
+            "from": {
+                "lat": "51.89050854453478",
+                "lon": "4.639884331076431",
+                "name": "Bergen Op Zoom"
+            },
+            "to": {
+                "lat": "52.0032689526968",
+                "lon": "5.090906093164386",
+                "name": "Utrecht"
+            },
+            "description": "Day 4"
+        },
+        {
+            "from": {
+                "lat": "52.0032689526968",
+                "lon": "5.090906093164386",
+                "name": "Bergen Op Zoom"
+            },
+            "to": {
+                "lat": "52.09241082054865",
+                "lon": "5.107861971477463",
+                "name": "Utrecht"
+            },
+            "description": "Day 4"
+        },
+        {
+            "from": {
+                "lat": "52.09241082054865",
+                "lon": "5.107861971477463",
+                "name": "Utrecht"
+            },
+            "to": {
+                "lat": "52.30678125028905",
+                "lon": "5.042877697957203",
+                "name": "Den Helder"
+            },
+            "description": "Day 5"
+        },
+        {
+            "from": {
+                "lat": "52.30678125028905",
+                "lon": "5.042877697957203",
+                "name": "Utrecht"
+            },
+            "to": {
+                "lat": "52.30265011296464",
+                "lon": "5.024634740620223",
+                "name": "Den Helder"
+            },
+            "description": "Day 5"
+        },
+        {
+            "from": {
+                "lat": "52.30265011296464",
+                "lon": "5.024634740620223",
+                "name": "Utrecht"
+            },
+            "to": {
+                "lat": "52.3681034075604",
+                "lon": "4.903869760564832",
+                "name": "Den Helder"
+            },
+            "description": "Day 5"
+        },
+        {
+            "from": {
+                "lat": "52.3681034075604",
+                "lon": "4.903869760564832",
+                "name": "Utrecht"
+            },
+            "to": {
+                "lat": "52.3792153819665",
+                "lon": "4.898455659050273",
+                "name": "Den Helder"
+            },
+            "description": "Day 5"
+        },
+        {
+            "from": {
+                "lat": "52.3792153819665",
+                "lon": "4.898455659050273",
+                "name": "Utrecht"
+            },
+            "to": {
+                "lat": "52.41822577548726",
+                "lon": "4.8268566074075245",
+                "name": "Den Helder"
+            },
+            "description": "Day 5"
+        },
+        {
+            "from": {
+                "lat": "52.41822577548726",
+                "lon": "4.8268566074075245",
+                "name": "Utrecht"
+            },
+            "to": {
+                "lat": "52.63328732042976",
+                "lon": "4.750343674295292",
+                "name": "Den Helder"
+            },
+            "description": "Day 5"
+        },
+        {
+            "from": {
+                "lat": "52.63328732042976",
+                "lon": "4.750343674295292",
+                "name": "Utrecht"
+            },
+            "to": {
+                "lat": "52.95611238462891",
+                "lon": "4.761565627133624",
+                "name": "Den Helder"
+            },
+            "description": "Day 5"
+        },
+        {
+            "from": {
+                "lat": "52.95611238462891",
+                "lon": "4.761565627133624",
+                "name": "Den Helder"
+            },
+            "to": {
+                "lat": "52.964685064963334",
+                "lon": "4.7808202255509284",
+                "name": "Den Helder"
+            },
+            "description": "Day 6"
+        },
+        {
+            "from": {
+                "lat": "53.00248542582162",
+                "lon": "4.783750273136171",
+                "name": "Texel"
+            },
+            "to": {
+                "lat": "53.026660301656165",
+                "lon": "4.739380981131078",
+                "name": "Texel"
+            },
+            "description": "Day 6"
+        },
+        {
+            "from": {
+                "lat": "53.026660301656165",
+                "lon": "4.739380981131078",
+                "name": "Texel"
+            },
+            "to": {
+                "lat": "53.10043741821684",
+                "lon": "4.75928484966267",
+                "name": "Texel"
+            },
+            "description": "Day 6"
+        },
+        {
+            "from": {
+                "lat": "53.10043741821684",
+                "lon": "4.75928484966267",
+                "name": "Texel"
+            },
+            "to": {
+                "lat": "53.17576744668963",
+                "lon": "4.861836515146138",
+                "name": "Texel"
+            },
+            "description": "Day 6"
+        },
+        {
+            "from": {
+                "lat": "53.17576744668963",
+                "lon": "4.861836515146138",
+                "name": "Texel"
+            },
+            "to": {
+                "lat": "53.15619434582507",
+                "lon": "4.87941680065759",
+                "name": "Texel"
+            },
+            "description": "Day 6"
+        },
+        {
+            "from": {
+                "lat": "53.15619434582507",
+                "lon": "4.87941680065759",
+                "name": "Texel"
+            },
+            "to": {
+                "lat": "53.0846013268127",
+                "lon": "4.900345711980746",
+                "name": "Texel"
+            },
+            "description": "Day 6"
+        },
+        {
+            "from": {
+                "lat": "53.0846013268127",
+                "lon": "4.900345711980746",
+                "name": "Texel"
+            },
+            "to": {
+                "lat": "53.037813142709894",
+                "lon": "4.851372059484558",
+                "name": "Texel"
+            },
+            "description": "Day 6"
+        },
+        {
+            "from": {
+                "lat": "53.037813142709894",
+                "lon": "4.851372059484558",
+                "name": "Texel"
+            },
+            "to": {
+                "lat": "53.002058918006384",
+                "lon": "4.784399543250458",
+                "name": "Texel"
+            },
+            "description": "Day 6"
+        },
+        {
+            "from": {
+                "lat": "51.80741665897705",
+                "lon": "4.6686593916771155",
+                "name": "Dordrecht"
+            },
+            "to": {
+                "lat": "51.84468716888125",
+                "lon": "4.570499027160531",
+                "name": "Rotterdam Europoort"
+            },
+            "description": "Day 7"
+        },
+        {
+            "from": {
+                "lat": "51.84468716888125",
+                "lon": "4.570499027160531",
+                "name": "Dordrecht"
+            },
+            "to": {
+                "lat": "51.903971842611156",
+                "lon": "4.213906924460225",
+                "name": "Rotterdam Europoort"
+            },
+            "description": "Day 7"
+        },
+        {
+            "from": {
+                "lat": "51.903971842611156",
+                "lon": "4.213906924460225",
+                "name": "Dordrecht"
+            },
+            "to": {
+                "lat": "51.94318848902097",
+                "lon": "4.12799107076433",
+                "name": "Rotterdam Europoort"
+            },
+            "description": "Day 7"
+        },
+        {
+            "from": {
+                "lat": "53.74119832000727",
+                "lon": "-0.27730082132517037",
+                "name": "Hull"
+            },
+            "to": {
+                "lat": "53.75433833615287",
+                "lon": "-0.737263143763338",
+                "name": "Leeds"
+            },
+            "description": "Day 8"
+        },
+        {
+            "from": {
+                "lat": "53.75433833615287",
+                "lon": "-0.737263143763338",
+                "name": "Hull"
+            },
+            "to": {
+                "lat": "53.74283273771536",
+                "lon": "-0.870487290425973",
+                "name": "Leeds"
+            },
+            "description": "Day 8"
+        },
+        {
+            "from": {
+                "lat": "53.74283273771536",
+                "lon": "-0.870487290425973",
+                "name": "Hull"
+            },
+            "to": {
+                "lat": "53.78432181086484",
+                "lon": "-1.0615558024908769",
+                "name": "Leeds"
+            },
+            "description": "Day 8"
+        },
+        {
+            "from": {
+                "lat": "53.78432181086484",
+                "lon": "-1.0615558024908769",
+                "name": "Hull"
+            },
+            "to": {
+                "lat": "53.826586635231195",
+                "lon": "-1.2277432641916572",
+                "name": "Leeds"
+            },
+            "description": "Day 8"
+        },
+        {
+            "from": {
+                "lat": "53.826586635231195",
+                "lon": "-1.2277432641916572",
+                "name": "Hull"
+            },
+            "to": {
+                "lat": "53.79461600696962",
+                "lon": "-1.5483094767499532",
+                "name": "Leeds"
+            },
+            "description": "Day 8"
+        },
+        {
+            "from": {
+                "lat": "53.79461600696962",
+                "lon": "-1.5483094767499532",
+                "name": "Leeds"
+            },
+            "to": {
+                "lat": "53.72212717391352",
+                "lon": "-1.8516739214472653",
+                "name": "Manchester"
+            },
+            "description": "Day 9"
+        },
+        {
+            "from": {
+                "lat": "53.72212717391352",
+                "lon": "-1.8516739214472653",
+                "name": "Leeds"
+            },
+            "to": {
+                "lat": "53.70771281410114",
+                "lon": "-1.9084437082514796",
+                "name": "Manchester"
+            },
+            "description": "Day 9"
+        },
+        {
+            "from": {
+                "lat": "53.70771281410114",
+                "lon": "-1.9084437082514796",
+                "name": "Leeds"
+            },
+            "to": {
+                "lat": "53.728667446207936",
+                "lon": "-1.9792654224824775",
+                "name": "Manchester"
+            },
+            "description": "Day 9"
+        },
+        {
+            "from": {
+                "lat": "53.728667446207936",
+                "lon": "-1.9792654224824775",
+                "name": "Leeds"
+            },
+            "to": {
+                "lat": "53.65922217272086",
+                "lon": "-2.0394076718691183",
+                "name": "Manchester"
+            },
+            "description": "Day 9"
+        },
+        {
+            "from": {
+                "lat": "53.65922217272086",
+                "lon": "-2.0394076718691183",
+                "name": "Leeds"
+            },
+            "to": {
+                "lat": "53.611165256602646",
+                "lon": "-2.113461724143935",
+                "name": "Manchester"
+            },
+            "description": "Day 9"
+        },
+        {
+            "from": {
+                "lat": "53.611165256602646",
+                "lon": "-2.113461724143935",
+                "name": "Leeds"
+            },
+            "to": {
+                "lat": "53.47735262021121",
+                "lon": "-2.2306508160694123",
+                "name": "Manchester"
+            },
+            "description": "Day 9"
+        }
+    ]
+}

@@ -1,7 +1,8 @@
 {
   "details": {
-      "name": "London to Cardiff",
+      "name": "London to Cardiff (EuroVelo 2 Capitals Route)",
       "type": "Tour",
+      "year": 2022,
       "style": {
           "colour": "#000099",
           "line": "solid"

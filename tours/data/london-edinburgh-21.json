@@ -1,10 +1,11 @@
 {
     "details": {
-        "name": "London to Edinburgh",
+        "name": "London to Edinburgh (EuroVelo 12 North Sea Cycle Route)",
         "type": "Tour",
+        "year": 2021,
         "style": {
             "colour": "#FFCC00",
-            "line": "solid"
+            "line": "dashed"
         }
     },
     "locations":[
@@ -136,6 +137,19 @@
             "from": {
                 "lat": "53.444193353739394",
                 "lon": "-0.7202561503253433",
+                "name": "Blyton"
+            },
+            "to": {
+                "lat": "53.74283273771536",
+                "lon": "-0.870487290425973",
+                "name": "York"
+            },
+            "description": "Day 4"
+        },
+        {
+            "from": {
+                "lat": "53.74283273771536",
+                "lon": "-0.870487290425973",
                 "name": "Blyton"
             },
             "to": {
